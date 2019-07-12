@@ -7,7 +7,7 @@ import data_io
 import SIF_embedding
 import utils
 
-MAX_WORDS = 300
+MAX_WORDS = 500
 
 def sentences2idx(texts, words):
   """
