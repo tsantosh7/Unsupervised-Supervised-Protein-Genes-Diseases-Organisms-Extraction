@@ -40,4 +40,5 @@
 # private EBI files
 /EBI Standard/*
 *.json
+/Datasets/EBI Standard/rel_data.json
 *bronze*
