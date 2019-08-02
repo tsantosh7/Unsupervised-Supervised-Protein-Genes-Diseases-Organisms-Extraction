@@ -2,24 +2,26 @@
 11,The expression of ABCG2 may explain in part the ineffectiveness of doxorubicin as a single modality treatment for anaplastic thyroid cancer or for treatment of metastatic follicular thyroid cancer.,drug_gene,drug_disease
 14,Oral administration of GSK221149A (5 mg/kg) was effective in inhibiting oxytocin-induced uterine contractions after single and multiple (4-day) dosing.,drug_gene,drug_disease
 15,Intravenous administration of GSK221149A produced a dose-dependent decrease in oxytocin-induced uterine contractions in anesthetized rats with an ID(50) = 0.27 +/- 0.60 mg/kg (corresponding plasma concentrations were 88 ng/ml).,drug_gene,drug_disease
+34,"We found for the first time, to our knowledge, that regulation of TRPV6 gene expression by SCFA may be a molecular mechanism involved in the promotion of calcium absorption by FOS in rats.",drug_gene,gene_disease
+161,"Furthermore, peripheral administration of SHA 68 in mice (50 mg/kg i.p.) is able to antagonize NPS-induced horizontal and vertical activity as well as stereotypic behavior.",drug_gene,gene_disease
+181,These results suggest that FLT3/TKD+ and FLT3/WT cases should not be differentiated when considering patients for treatment with FLT3 inhibitors.,drug_gene,drug_disease
+184,These results suggest that FLT3/TKD+ and FLT3/WT cases should not be differentiated when considering patients for treatment with FLT3 inhibitors.,drug_gene,drug_disease
 189,Decreased plasma soluble RAGE in patients with hypercholesterolemia: effects of statins.,drug_gene,drug_disease
-242,A continuous epidural infusion of ropivacaine inhibits CYP2D6 activity in patients who are extensive metabolizers resulting in a twofold increase in the MR for debrisoquine hydroxylation.,drug_gene,drug_disease
+192,This increase in CXCR4 levels on CML progenitor cells was likewise found in samples from CML patients treated with imatinib or IFN-alpha.,drug_gene,drug_disease
+194,This increase in CXCR4 levels on CML progenitor cells was likewise found in samples from CML patients treated with imatinib or IFN-alpha.,drug_gene,drug_disease
+221,"Moreover, failure of nilotinib treatment was accompanied by an increase of Lyn mRNA expression in patients with resistant CML.",drug_gene,drug_disease
 244,Patients received 10 mg debrisoquine (a marker for CYP2D6 activity) before surgery and after 40 h epidural infusion.,drug_gene,drug_disease
-246,A continuous epidural infusion of ropivacaine inhibits CYP2D6 activity in patients who are extensive metabolizers resulting in a twofold increase in the MR for debrisoquine hydroxylation.,drug_gene,drug_disease
 264,"The prognostic value of the T393C SNP was evaluated in an unselected series of patients treated with curative intent for oropharyngeal and hypopharyngeal squamous cell carcinomas, including all tumor stages with different therapeutic regimens.",gene_disease,drug_disease
-265,"However, the majority of colon cancer cells have deregulation of the Wnt/beta-catenin pathway.",gene_disease,drug_gene
 266,Lysophosphatidic acid facilitates proliferation of colon cancer cells via induction of Krppel-like factor 5.,gene_disease,drug_gene
-267,A recent study showed that LPA-mediated proliferation of colon cancer cells requires activation of beta-catenin.,gene_disease,drug_gene
-269,"The A6986G polymorphism of CYP3A5, which is involved in the metabolism of vinblastine and doxorubicin, might be a genetic predictor of the severity of leukocytopenia induced by chemotherapy with methotrexate, vinblastine, doxorubicin and cisplatin.",gene_disease,drug_disease
-301,"The results of a phase I clinical trial of the topoisomerase I (Topo I) poison CPT-11 followed by the cyclin-dependent kinase inhibitor flavopiridol in patients with advanced solid tumors indicate that patients whose tumors were wild-type, but not mutant, for p53 obtained the most clinical benefit from this combination therapy.",gene_disease,drug_gene
+269,"The A6986G polymorphism of CYP3A5, which is involved in the metabolism of vinblastine and doxorubicin, might be a genetic predictor of the severity of leukocytopenia induced by chemotherapy with methotrexate, vinblastine, doxorubicin and cisplatin.",gene_disease,drug_gene
+318,STEC strains carrying stx2 were more frequently associated with clinical manifestations of hemolytic-uremic syndrome (HUS) or bloody diarrhea than those carrying stx2vha.,gene_disease,drug_disease
+319,STEC strains carrying stx2 were more frequently associated with clinical manifestations of hemolytic-uremic syndrome (HUS) or bloody diarrhea than those carrying stx2vha.,gene_disease,drug_disease
+320,STEC strains carrying stx2 were more frequently associated with clinical manifestations of hemolytic-uremic syndrome (HUS) or bloody diarrhea than those carrying stx2vha.,gene_disease,drug_disease
 354,Regulation of hairy and enhancer of split homologue-1 (HES-1) by estradiol and all-trans retinoic acid affects proliferation of human breast cancer cells.,gene_disease,drug_gene
 356,Regulation of hairy and enhancer of split homologue-1 (HES-1) by estradiol and all-trans retinoic acid affects proliferation of human breast cancer cells.,gene_disease,drug_gene
-412,An anti-inflammatory and anticarcinogenic potential has been inferred from the development of colitis and intestinal cancer in GPx1 and GPx2 double knockout mice.,gene_disease,drug_gene
-413,An anti-inflammatory and anticarcinogenic potential has been inferred from the development of colitis and intestinal cancer in GPx1 and GPx2 double knockout mice.,gene_disease,drug_gene
-415,"In contrast, enhanced COX-2 expression is consistently associated with inflammation.",gene_disease,drug_gene
-416,An anti-inflammatory and anticarcinogenic potential has been inferred from the development of colitis and intestinal cancer in GPx1 and GPx2 double knockout mice.,gene_disease,drug_gene
-417,An anti-inflammatory and anticarcinogenic potential has been inferred from the development of colitis and intestinal cancer in GPx1 and GPx2 double knockout mice.,gene_disease,drug_gene
+494,"Taken together, these data suggest that low levels of IL-10 during the disease outcome can drive patients to a chronic and unprotective response that culminates with leprosy.",gene_disease,drug_disease
 511,"In CD patients, TLR-induced GM-CSF secretion was impaired by both NOD2-dependent and -independent mechanisms.",gene_disease,drug_gene
+513,"Based on NOD2 SNP analyses, 41 CD patients and 12 healthy controls were studied.",gene_disease,drug_disease
 514,Toll-like receptor-induced granulocyte-macrophage colony-stimulating factor secretion is impaired in Crohn's disease by nucleotide oligomerization domain 2-dependent and -independent pathways.,gene_disease,drug_gene
 515,Toll-like receptor-induced granulocyte-macrophage colony-stimulating factor secretion is impaired in Crohn's disease by nucleotide oligomerization domain 2-dependent and -independent pathways.,gene_disease,drug_gene
 516,"Moreover, TNF-alpha production was induced by a TLR-2 ligand, but a down-regulatory function by the NOD2 ligand, muramyl dipeptide, was impaired significantly in CD patients.",gene_disease,drug_gene
@@ -33,9 +35,10 @@
 529,"In CD patients, TLR-induced GM-CSF secretion was impaired by both NOD2-dependent and -independent mechanisms.",gene_disease,drug_gene
 555,Vascular endothelial growth factor (VEGF) promotes breast cancer progression by inducing angiogenesis via VEGF receptors on endothelial cells but also signals directly through receptors such as VEGFR-1 (Flt-1) expressed on tumour cells.,gene_disease,drug_gene
 556,Vascular endothelial growth factor (VEGF) promotes breast cancer progression by inducing angiogenesis via VEGF receptors on endothelial cells but also signals directly through receptors such as VEGFR-1 (Flt-1) expressed on tumour cells.,gene_disease,drug_gene
+589,Chronic rhinosinusitis with nasal polyps is associated with decreased expression of mucosal interleukin 22 receptor.,gene_disease,drug_gene
 591,"However, IL-22R1 was only expressed in 55% of patients with recalcitrant CRSwNP.",gene_disease,drug_disease
 595,Failure of medical and surgical therapy in CRSwNP is associated with significantly decreased expression of IL-22R1.,gene_disease,drug_disease
-596,Fetuin-A is a calcification inhibitor and correlates negatively with increased vascular stiffness in dialysis patients.,gene_disease,drug_gene
+596,Fetuin-A is a calcification inhibitor and correlates negatively with increased vascular stiffness in dialysis patients.,gene_disease,drug_disease
 599,EGFR gene expression in pancreatic adenocarcinoma cells significantly surpassed that in normal pancreatic cells.,gene_disease,drug_gene
 612,ET-1 mRNA expression was significantly higher in patients with CsA-induced gingival overgrowth (P <0.001) than in patients with periodontitis and the controls.,drug_disease,gene_disease
 613,ET-1 mRNA expression was significantly higher in patients with CsA-induced gingival overgrowth (P <0.001) than in patients with periodontitis and the controls.,drug_disease,gene_disease
@@ -44,4 +47,6 @@
 641,"Another important finding was that the cytotoxic effect induced by 25 microM or 50 microM of indomethacin-loaded nanocapsules or indomethacin ethyl ester-loaded nanocapsules, in glioma cells was not observed in the organotypic cultures, indicating selective cytotoxicity of those formulations for tumoral cells.",drug_disease,drug_gene
 644,Indomethacin and indomethacin ethyl ester associated together in the same nanocapsule formulation caused a synergic effect decreasing glioma cell proliferation.,drug_disease,drug_gene
 645,Indomethacin and indomethacin ethyl ester associated together in the same nanocapsule formulation caused a synergic effect decreasing glioma cell proliferation.,drug_disease,drug_gene
+717,While some beneficial neuromotor effects of succimer therapy were observed in the present study there remains several unanswered questions such as how long these effects will persist and how succimer therapy modifies lead-associated cerebellar deficits manifesting as perturbations in vestibular and/or proprioception systems for postural balance and functional locomotion.,drug_disease,gene_disease
 774,Absence of villin predisposes mice to dextran sodium sulfate-induced colitis by promoting apoptosis.,drug_disease,drug_gene
+791,"In multivariate analysis the risk of anaemia was significantly associated with zidovudine (OR, 3.27 95% CI, 1.64-6.54, P = 0.0008) and peg-IFN (OR, 2.35; 95% CI, 1.16-4.57, P = 0.0179).",drug_disease,gene_disease
