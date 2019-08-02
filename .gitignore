@@ -37,3 +37,7 @@
 # Heavy result files
 *.h5
 
+# private EBI files
+/EBI Standard/*
+*.json
+*bronze*
