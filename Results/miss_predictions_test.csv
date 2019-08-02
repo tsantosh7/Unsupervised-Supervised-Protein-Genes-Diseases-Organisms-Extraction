@@ -1,271 +1,168 @@
 ,GAD_CONCLUSION,CLASS,Predicted-CLASS
-11,These results suggest that the GSTT1 null genotype may be associated with increased risk of stomach cancer.,gene_disease,drug_disease
-14,"These results suggest that the GSTT1 null-genotype is associated with an increased risk of lung cancer, especially in younger individuals.",gene_disease,drug_disease
-15,"These results support previous reports that the GSTM1 null genotype is associated with a modest increase in risk for lung cancer, particularly among heavy smokers, suggest no role for GSTT1 and the need for further study of GSTP1.",gene_disease,drug_disease
-29,"These results support previous reports that the GSTM1 null genotype is associated with a modest increase in risk for lung cancer, particularly among heavy smokers, suggest no role for GSTT1 and the need for further study of GSTP1.",gene_disease,drug_disease
-31,The results suggest that the GSTM1 null genotype is a risk factor for development of oral cancer among Indian tobacco habitues.,gene_disease,drug_disease
+7,The novel gene HCCA2 may be related with the infiltration and proliferation of liver cancer.,gene_disease,drug_gene
+10,"We found no evidence that mutation in GUCA1B,GNGT1,or RGS9 gene is a cause of retinitis pigmentosa.",gene_disease,unknown
 39,"Because our samples provided quite high power, these results indicate that GSK3B may not play a major role in Japanese schizophrenia.",gene_disease,unknown
-41,Our results partially support the previous studies in other ethnic groups and indicate that the GRM3 gene may play an important role in the etiology of schizophrenia in the Han Chinese.,gene_disease,unknown
 52,We conclude that  GRIK2 does not play a major role in the pathogenesis of schizophrenia in the Japanese population.,gene_disease,unknown
 53,We conclude that  GRIK2 does not play a major role in the pathogenesis of schizophrenia in the Japanese population.,gene_disease,unknown
 54,We conclude that  GRIK1 does not play a major role in schizophrenia pathogenesis in the Japanese population.,gene_disease,unknown
 55,We conclude that  GRIK1 does not play a major role in schizophrenia pathogenesis in the Japanese population.,gene_disease,unknown
-58,The result of this study suggests that the GPX1 genotype is unlikely to be associated with the risk of developing prostate cancer.,gene_disease,drug_disease
-59,The result of this study suggests that the GPX1 genotype is unlikely to be associated with the risk of developing prostate cancer.,gene_disease,drug_disease
-79,The experiments reported herein provide no evidence supporting involvement of the GALT locus in the development of endometriosis.,gene_disease,unknown
-80,The experiments reported herein provide no evidence supporting involvement of the GALT locus in the development of endometriosis.,gene_disease,unknown
+60,Determination of VNTR of the GPIba gene may prove useful for identifying high-risk individuals for MI.,gene_disease,unknown
+62,"We found no evidence that mutation in GUCA1B,GNGT1,or RGS9 gene is a cause of retinitis pigmentosa.",gene_disease,unknown
 81,Our results suggest that GAD2 does not play a major role in type 1 diabetes in these two European populations.,gene_disease,unknown
-124,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-125,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-126,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-127,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-128,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-129,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-130,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
-131,"Patients with MVP have higher frequencies of FBN1 exon 15 TT and exon 27 GG genotypes, which supports a role of the FBN1 exon 15 and 27 polymorphisms in determining the risk of MVP among the Chinese population in Taiwan.",gene_disease,unknown
+87,"These results suggest the GABRA3 gene may be a risk factor for MS. As with the DRD2 gene, the effect may be mediated through its regulation of prolactin release.",gene_disease,drug_gene
+114,The results showed that the FGF1 gene is associated with autopsy-confirmed AD.,gene_disease,unknown
 148,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
 149,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
-166,The authors failed to find an association between the intronic insertion polymorphism of the ENG gene and aneurysmal SAH in a Polish population.,gene_disease,unknown
 179,"In conclusion, our findings support an etiological role of NE in lung cancer development.",gene_disease,unknown
-183,This study suggests that high EGF production might be important in the development of malignant melanoma.,gene_disease,drug_disease
-184,This study suggests that high EGF production might be important in the development of malignant melanoma.,gene_disease,drug_disease
-185,"All our results indicate that the presence of the ET-1 genotype (++) in patients with structural heart disease, severe left ventricular dysfunction and malignant ventricular arrhythmias increases the risk for these patients of hemodynamic collapse during these arrhythmias.",gene_disease,drug_disease
-186,"All our results indicate that the presence of the ET-1 genotype (++) in patients with structural heart disease, severe left ventricular dysfunction and malignant ventricular arrhythmias increases the risk for these patients of hemodynamic collapse during these arrhythmias.",gene_disease,drug_disease
-199,The present results do not support a major role for DRD4 in the etiology of schizophrenia among Caucasians from Sweden.,gene_disease,unknown
-205,The present results do not support a major role for DRD4 in the etiology of schizophrenia among Caucasians from Sweden.,gene_disease,unknown
-208,These results suggest that the S/S genotype of the DRD3 is associated with worse therapeutic response and more severe executive dysfunctions in patients with schizophrenia.,gene_disease,drug_disease
-215,We conclude that  our data do not support an allelic association between the A1 allele at DRD2 and alcoholism.,gene_disease,unknown
-223,This study provides support for the hypothesis that DLG5 constitutes a true IBD risk factor of modest effect.,gene_disease,unknown
-224,The DLD genotype appears to operate independently of APOE in conferring AD risk.,gene_disease,unknown
-229,"Variation in DEFB1 contributes to asthma diagnosis, with apparent gender-specific effects.",gene_disease,drug_disease
+183,This study suggests that high EGF production might be important in the development of malignant melanoma.,gene_disease,drug_gene
+184,This study suggests that high EGF production might be important in the development of malignant melanoma.,gene_disease,drug_gene
+185,"All our results indicate that the presence of the ET-1 genotype (++) in patients with structural heart disease, severe left ventricular dysfunction and malignant ventricular arrhythmias increases the risk for these patients of hemodynamic collapse during these arrhythmias.",gene_disease,unknown
+186,"All our results indicate that the presence of the ET-1 genotype (++) in patients with structural heart disease, severe left ventricular dysfunction and malignant ventricular arrhythmias increases the risk for these patients of hemodynamic collapse during these arrhythmias.",gene_disease,unknown
+200,"In children with ADHD, possession of the DRD4 7-repeat allele appears to be associated with an inaccurate, impulsive response style on neuropsychological tasks that is not explained by ADHD symptom severity.",gene_disease,unknown
+201,"In children with ADHD, possession of the DRD4 7-repeat allele appears to be associated with an inaccurate, impulsive response style on neuropsychological tasks that is not explained by ADHD symptom severity.",gene_disease,unknown
+202,"In children with ADHD, possession of the DRD4 7-repeat allele appears to be associated with an inaccurate, impulsive response style on neuropsychological tasks that is not explained by ADHD symptom severity.",gene_disease,unknown
+203,"In children with ADHD, possession of the DRD4 7-repeat allele appears to be associated with an inaccurate, impulsive response style on neuropsychological tasks that is not explained by ADHD symptom severity.",gene_disease,unknown
 236,These results suggest that DBP does not contribute to the development of MS in Japanese.,gene_disease,unknown
-270,"Our results suggest that rate of gastric emptying, but not CYP2C19 polymorphism, is likely to be an important factor in the delayed healing of patients with PPI-resistant gastric ulcer.",gene_disease,drug_disease
-279,These results do not support a favoring role of CYP1B1*3 in ovarian cancer development in our population.,gene_disease,drug_disease
-309,"It is unlikely that CYP17 c.1-34T>C has a role in breast cancer etiology, overall or in combination with established non-genetic breast cancer risk factors.",gene_disease,drug_disease
-310,"It is unlikely that CYP17 c.1-34T>C has a role in breast cancer etiology, overall or in combination with established non-genetic breast cancer risk factors.",gene_disease,drug_disease
-332,The p22 phox codon 72 polymorphism is not associated with the risk of CHD in the present samples of Asian Indians and Chinese.,gene_disease,unknown
-345,"In Japanese scleroderma, the +49A allele of CTLA-4 increased in the presence of SSc with the anti-RNP antibody.",gene_disease,drug_gene
-351,No evidence for association of CTLA-4 with RA was detected using family or case-control methods.,gene_disease,unknown
-355,The present study did not support an association between the CTLA-4 microsatellite marker and type 1 diabetes in our Japanese study population.,gene_disease,unknown
-361,This suggests that the CTLA-4 gene might play a role in the development of Graves' disease in the Lebanese population.,gene_disease,unknown
+253,"CYP46 influences brain beta-amyloid load, cerebrospinal fluid levels of beta-amyloid peptides and phosphorylated tau, and the genetic risk of late-onset sporadic AD.",gene_disease,unknown
+258,"CYP46 influences brain beta-amyloid load, cerebrospinal fluid levels of beta-amyloid peptides and phosphorylated tau, and the genetic risk of late-onset sporadic AD.",gene_disease,unknown
+270,"Our results suggest that rate of gastric emptying, but not CYP2C19 polymorphism, is likely to be an important factor in the delayed healing of patients with PPI-resistant gastric ulcer.",gene_disease,unknown
+271,Our data suggest that deficient CYP2A6 activity due to genetic polymorphism reduces oral cancer risk in betel quid chewers.,gene_disease,unknown
+278,Our results suggested that the Val CYP1B1 allele increases the susceptibility to breast cancer in women exposed to waste incinerator or agricultural pollutants.,gene_disease,unknown
+279,These results do not support a favoring role of CYP1B1*3 in ovarian cancer development in our population.,gene_disease,unknown
 364,"We concluded that, the CTLA4 49 A-G polymorphism is associated with RA in Chinese patients from Taiwan.",gene_disease,unknown
-368,The association between the CTLA4 G allele and early RA is largely explained by individuals with RA who have coexisting autoimmune endocrinopathies.,gene_disease,unknown
-369,The association between the CTLA4 G allele and early RA is largely explained by individuals with RA who have coexisting autoimmune endocrinopathies.,gene_disease,unknown
-375,We conclude that the CTLA-4 gene appears to play a significant role in the development of SLE in the Japanese population.,gene_disease,unknown
-380,No evidence for association of CTLA-4 with RA was detected using family or case-control methods.,gene_disease,unknown
-383,The association between the CTLA4 G allele and early RA is largely explained by individuals with RA who have coexisting autoimmune endocrinopathies.,gene_disease,unknown
-384,The association between the CTLA4 G allele and early RA is largely explained by individuals with RA who have coexisting autoimmune endocrinopathies.,gene_disease,unknown
-386,The present study did not support an association between the CTLA-4 microsatellite marker and type 1 diabetes in our Japanese study population.,gene_disease,unknown
-392,We conclude that the CTLA-4 gene appears to play a significant role in the development of SLE in the Japanese population.,gene_disease,unknown
 399,Our results suggest that a dysregulation of CTLA-4-driven downregulation of T-cell activation could be involved in the pathogenesis of MS.,gene_disease,drug_gene
-403,"In conclusion, we found no evidence for an association between the CRP polymorphisms/haplotypes tested and the risk of venous thromboembolism.",gene_disease,drug_disease
-442,These data suggest that -838A is associated with reduced p27kip1 promoter activity and increased risk of myocardial infarction.,gene_disease,drug_disease
-466,Our results suggest that the C-159T of CD14 was associated with serum total IgE concentration in atopic Chinese children.,gene_disease,drug_disease
-467,The CD14-159 SNP might not play a major role in the development of atopy in German children.,gene_disease,unknown
-469,Our results do not confirm the association of CD14 polymorphism (promoter -159 C to T transition) with asthma in Polish children.,gene_disease,unknown
-471,The CD14-159 SNP might not play a major role in the development of atopy in German children.,gene_disease,unknown
-475,Our results do not confirm the association of CD14 polymorphism (promoter -159 C to T transition) with asthma in Polish children.,gene_disease,unknown
+406,The corticotropin releasing hormone binding protein gene is likely to be involved in the genetic vulnerability for major depression.,gene_disease,unknown
+442,These data suggest that -838A is associated with reduced p27kip1 promoter activity and increased risk of myocardial infarction.,gene_disease,drug_gene
+466,Our results suggest that the C-159T of CD14 was associated with serum total IgE concentration in atopic Chinese children.,gene_disease,unknown
 486,The results suggest that the CCR5 receptor plays an important role in RA and may be a suitable target for therapy.,gene_disease,drug_gene
-492,This study suggests that CCND1 A870G polymorphism may modify the postmenopausal breast cancer risk associated with hormonal exposure and predict survival after breast cancer diagnosis.,gene_disease,drug_disease
-493,This study suggests that CCND1 A870G polymorphism may modify the postmenopausal breast cancer risk associated with hormonal exposure and predict survival after breast cancer diagnosis.,gene_disease,drug_disease
-498,"The CCND1 870A allele may be associated with colorectal cancer, and particularly with forms of the disease that result in severe morbidity and mortality.",gene_disease,drug_disease
-527,"Despite the strikingly similar pathologies of Blau syndrome and sarcoidosis, no mutations were found to be associated with sarcoidosis in a group of patients, regardless of the presence of uveitis.",gene_disease,drug_disease
-528,"Despite the strikingly similar pathologies of Blau syndrome and sarcoidosis, no mutations were found to be associated with sarcoidosis in a group of patients, regardless of the presence of uveitis.",gene_disease,drug_disease
+501,Nasal polyp eosinophilic infiltration and activation correlate mainly with increased eotaxin gene expression rather than with RANTES expression.,gene_disease,drug_gene
+503,Our data are consistent with the hypothesis that MCP-1 is involved in the pathogenesis of human atherosclerosis and myocardial infarction.,gene_disease,unknown
+517,Our findings are consistent with the notion that genetic variation in the CCK neurotransmitter system contributes to the pathogenesis of panic disorder.,gene_disease,unknown
 529,Our data provide no evidence to support an association between CARD15 and WG.,gene_disease,unknown
 531,"The results suggest that variation in CAPN10 affects risk of type 2 diabetes in the mestizo population of central Mexico (Mexico City and Orizaba) and in Mexican Americans (Starr County, Texas).",gene_disease,unknown
 535,"The results suggest that variation in CAPN10 affects risk of type 2 diabetes in the mestizo population of central Mexico (Mexico City and Orizaba) and in Mexican Americans (Starr County, Texas).",gene_disease,unknown
+551,"A positive correlation was found between LRP gene polymorphism and AD, but not between BchE gene polymorphism and AD in Chinese AD cases.",gene_disease,unknown
+552,"A positive correlation was found between LRP gene polymorphism and AD, but not between BchE gene polymorphism and AD in Chinese AD cases.",gene_disease,unknown
+553,"A positive correlation was found between LRP gene polymorphism and AD, but not between BchE gene polymorphism and AD in Chinese AD cases.",gene_disease,unknown
 555,"In conclusion, neither the BCHE K nor the TF C2 confers a risk for AD.",gene_disease,unknown
 557,"We conclude that  in the population studied here there is no association between BCHE-K and AD, or that if such a relationship exists it is precluded by another, as yet unknown factor.",gene_disease,unknown
-562,This result provides evidence that the ASA pseudodeficient N-glycosylation site allele increases the risk of alcohol dependence within a Korean population.,gene_disease,unknown
-566,"In addition, these data suggest that AR repeat length may be partly responsible for the increased risk for early-onset breast cancer in women who use OCs, although these findings need replication in other populations.",gene_disease,drug_disease
 567,"The majority of the Colombian AD cases, predominantly late-onset, were negative for PSEN and APP mutations.",gene_disease,unknown
-568,These findings exclude a strong or independent influence of APOE or APOC1 promoter polymorphisms on the variation in APOE-related risk of AD in African American and Caribbean Hispanic individuals.,gene_disease,unknown
-569,These findings exclude a strong or independent influence of APOE or APOC1 promoter polymorphisms on the variation in APOE-related risk of AD in African American and Caribbean Hispanic individuals.,gene_disease,unknown
 575,"AACT * A6 allele may be associated with AD negatively in Shanghai area, and this effect only exists in non-ApoE * epsilon 4 AD.",gene_disease,unknown
 576,"AACT * A6 allele may be associated with AD negatively in Shanghai area, and this effect only exists in non-ApoE * epsilon 4 AD.",gene_disease,unknown
 578,These results support the possibility that ApoE and LRP may contribute to the development of AD.,gene_disease,unknown
-589,We suggest that APOE may operate as an additional risk factor for schizophrenia in individuals subjected to fetal and/or early postnatal malnutrition.,gene_disease,drug_disease
-590,"Our data modestly support a protective effect of the APOE-e4 allele on AMD risk, but emphasize the need to investigate more thoroughly whether the effect could be restricted to cases with a family history of AMD and whether it varies across age and sex groups.",gene_disease,unknown
-591,"Our data modestly support a protective effect of the APOE-e4 allele on AMD risk, but emphasize the need to investigate more thoroughly whether the effect could be restricted to cases with a family history of AMD and whether it varies across age and sex groups.",gene_disease,unknown
-598,We conclude that  APOE varepsilon4 allele represents a strong predictor of risk for AD.,gene_disease,unknown
+586,ApoE -427C/T polymorphism was not a susceptibility factor for AD in this Han population in Shanghai.,gene_disease,unknown
 599,A significant portion of sleep-disordered breathing is associated with ApoE epsilon4 in the general population.,gene_disease,unknown
-604,These findings exclude a strong or independent influence of APOE or APOC1 promoter polymorphisms on the variation in APOE-related risk of AD in African American and Caribbean Hispanic individuals.,gene_disease,unknown
-616,"We conclude that  the association of the FE65 intron 13 polymorphism with AD, if any, is smaller than previously reported.",gene_disease,unknown
-622,The hypothesis that ALOX5AP contributes to susceptibility for MI was validated in a Japanese population.,gene_disease,unknown
+600,These findings suggest that apoD may be related to the cognitive decline observed in AD patients and that apoD and apoE likely play different roles in the pathogenesis of AD.,gene_disease,unknown
+601,These findings suggest that apoD may be related to the cognitive decline observed in AD patients and that apoD and apoE likely play different roles in the pathogenesis of AD.,gene_disease,unknown
+602,These findings suggest that apoD may be related to the cognitive decline observed in AD patients and that apoD and apoE likely play different roles in the pathogenesis of AD.,gene_disease,unknown
+603,These findings suggest that apoD may be related to the cognitive decline observed in AD patients and that apoD and apoE likely play different roles in the pathogenesis of AD.,gene_disease,unknown
+621,The AMPD1 C34T polymorphism influences transplant-free cardiovascular survival in the setting of ischemic left ventricular dysfunction.,gene_disease,unknown
 637,There was no evidence in this study for the association of AGT M235T and ACE I/D polymorphism with pre-eclampsia in Chinese population in Chengdu area.,gene_disease,unknown
-641,"There is a significant association between AGT gene 235TT genotype and MI, this genotype might be an independent risk for MI in Chinese population.",gene_disease,unknown
-642,"There is a significant association between AGT gene 235TT genotype and MI, this genotype might be an independent risk for MI in Chinese population.",gene_disease,unknown
-647,"For the first time, we show that beta(2)-adrenoceptor polymorphisms significantly influence the relationship between heart rate and cardiac adrenergic drive in CHF, but do not affect the rate of norepinephrine release from sympathetic nerve terminals.",gene_disease,drug_disease
-650,"Our data indicate that ADRB2 does not contribute substantially to susceptibility to asthma, but it is possible that these polymorphisms influence disease activity and drug responses in individuals with asthma.",gene_disease,drug_disease
-651,"Our data indicate that ADRB2 does not contribute substantially to susceptibility to asthma, but it is possible that these polymorphisms influence disease activity and drug responses in individuals with asthma.",gene_disease,drug_disease
-672,"These findings suggest that a variant in ADAM33 is not only important in the development of asthma but also in disease progression, possibly related to enhanced airway remodelling.",gene_disease,drug_disease
-677,The eNOS G894T or eNOS 894TT genotypes in combination with the MTHFR 677TT or ACE D/D genotype increases the risk of ischaemic stroke.,gene_disease,unknown
-678,ACE DD genotype is related to endothelium-dependent arterial dilation in the early stage of type 2 diabetes mellitus and in healthy individuals.,gene_disease,drug_disease
+647,"For the first time, we show that beta(2)-adrenoceptor polymorphisms significantly influence the relationship between heart rate and cardiac adrenergic drive in CHF, but do not affect the rate of norepinephrine release from sympathetic nerve terminals.",gene_disease,unknown
+678,ACE DD genotype is related to endothelium-dependent arterial dilation in the early stage of type 2 diabetes mellitus and in healthy individuals.,gene_disease,unknown
 679,There was no evidence in this study for the association of AGT M235T and ACE I/D polymorphism with pre-eclampsia in Chinese population in Chengdu area.,gene_disease,unknown
-680,"Although based on a limited number of patients, our work suggests that individuals who are NOS3-CC + ACE-DD are at a higher risk for early CAD, probably as a consequence of increased endothelial dysfunction.",gene_disease,drug_disease
-692,"In our population DD ACE genotype is associated with MI in young patients, although smoking, family history and hypercholesterolemia show a more powerful association.",gene_disease,unknown
-696,These results suggested that ACE polymorphism is associated with the impairment of aortic and carotid distensibility in patients with type 2 diabetes.,gene_disease,drug_disease
-700,"Within the limitations of the available data, the meta-analysis therefore supports an association of the ACE D allele with MI risk and strengthens the justification for further evaluation in appropriately powered studies.",gene_disease,unknown
-703,Our findings suggest that the ACE/DD genotype is associated with hemostasis balance disturbances reflecting hypercoagulability and endothelial damage in patients with untreated hypertension.,gene_disease,drug_disease
-704,We conclude that  ACE genotype is a risk factor for late onset AD.,gene_disease,unknown
-705,The ACE DD genotype may be associated with an impairment in peripheral tissue oxygenation during exercise in patients with COPD.,gene_disease,drug_disease
-706,"Although there is a tendency of higher diastolic blood pressure in men with DD genotypes, there is no convincing evidence that ACE genotypes are associated with hypertension in this Japanese population.",gene_disease,drug_disease
-709,"Although based on a limited number of patients, our work suggests that individuals who are NOS3-CC + ACE-DD are at a higher risk for early CAD, probably as a consequence of increased endothelial dysfunction.",gene_disease,drug_disease
-723,"Our results suggest that homozygosity for 3435T alleles of ABCB1 is a risk factor for occurrence of nortriptyline-induced postural hypotension (OR = 1.37, P = 0.042, 95% CI 1.01-1.86).",gene_disease,unknown
+688,"In conclusion, while the ACE I/D polymorphism promoted the progress of in-stent restenosis and was of clinical significance, the other potential variables examined did not correlate with in-stent restenosis.",gene_disease,unknown
+689,"In conclusion, while the ACE I/D polymorphism promoted the progress of in-stent restenosis and was of clinical significance, the other potential variables examined did not correlate with in-stent restenosis.",gene_disease,unknown
+694,"We conclude that  deletion polymorphism of ACE gene, as an independent variable, is not associated with reflux nephropathy in children with vesicoureteral reflux.",gene_disease,unknown
+705,The ACE DD genotype may be associated with an impairment in peripheral tissue oxygenation during exercise in patients with COPD.,gene_disease,unknown
+718,"Based on these data, ABCB6 is not the causative gene for GRACILE syndrome.",gene_disease,unknown
 731,The results do not suggest a contribution of A2M and LRP to the development of MS.,gene_disease,unknown
-736,"In conclusion, we observed no association between either the intronic deletion polymorphism or the Ile1000Val polymorphism of A2M and AD in our case-control cohort.",gene_disease,unknown
-737,The results of this study revealed no association between the I1000V polymorphism of A2M and Chinese sporadic AD in Guangzhou and Chengdu.,gene_disease,unknown
+738,The lack of statistically significant difference between G/G frequencies in both groups of patients may suggest that alpha 2-macroglobulin G/G genotype is not a risk factor for AD.,gene_disease,unknown
 741,We conclude that  there is no genetic association between A2M and AD in our case-control sample.,gene_disease,unknown
-742,The A2M polymorphism does not affect the development of sporadic AD or formation of AD-type neuropathologic changes.,gene_disease,unknown
-743,The A2M polymorphism does not affect the development of sporadic AD or formation of AD-type neuropathologic changes.,gene_disease,unknown
 744,The results do not suggest a contribution of A2M and LRP to the development of MS.,gene_disease,unknown
-749,"No associations were found between the -308 TNF promoter polymorphism, serum and ex vivo TNF levels and the cytotoxic activity of TNF in RA patients.",gene_disease,drug_gene
-750,"No associations were found between the -308 TNF promoter polymorphism, serum and ex vivo TNF levels and the cytotoxic activity of TNF in RA patients.",gene_disease,drug_gene
-751,"No associations were found between the -308 TNF promoter polymorphism, serum and ex vivo TNF levels and the cytotoxic activity of TNF in RA patients.",gene_disease,drug_gene
-756,"We conclude that  IL-4-589*T, but not TNF-alpha-308*2 or Fcalpha RIbeta*G, is a risk factor for the development of atopy, asthma, and rhinitis by 12 mo of age.",gene_disease,drug_disease
-773,Mutations in the TLR4 receptor may predispose people to develop septic shock with gram-negative microorganisms.,gene_disease,drug_gene
-788,Our results suggest a role for tyrosine hydroxylase in early-onset alcoholism.,gene_disease,drug_gene
+756,"We conclude that  IL-4-589*T, but not TNF-alpha-308*2 or Fcalpha RIbeta*G, is a risk factor for the development of atopy, asthma, and rhinitis by 12 mo of age.",gene_disease,unknown
+773,Mutations in the TLR4 receptor may predispose people to develop septic shock with gram-negative microorganisms.,gene_disease,unknown
+788,Our results suggest a role for tyrosine hydroxylase in early-onset alcoholism.,gene_disease,unknown
 794,The TF C2 variant did not confer a risk for AD in Koreans.,gene_disease,unknown
 796,"In conclusion, neither the BCHE K nor the TF C2 confers a risk for AD.",gene_disease,unknown
-799,"While independent reproduction of these data in other data sets is indicated, our work is suggestive for a role of the TAC1 gene in MS.",gene_disease,unknown
-801,"This study suggests a positive association between synapsin II and schizophrenia, implying that synapsin II is involved in the etiology of schizophrenia.",gene_disease,unknown
-802,"This study suggests a positive association between synapsin II and schizophrenia, implying that synapsin II is involved in the etiology of schizophrenia.",gene_disease,unknown
-803,"This study suggests a positive association between synapsin II and schizophrenia, implying that synapsin II is involved in the etiology of schizophrenia.",gene_disease,unknown
-804,"This study suggests a positive association between synapsin II and schizophrenia, implying that synapsin II is involved in the etiology of schizophrenia.",gene_disease,unknown
-837,Identification of SPINK1 mutations in 12.2% of patients with adult alcoholic and idiopathic chronic pancreatitis suggests an important role for SPINK1 as a predisposing factor in adult chronic pancreatitis.,gene_disease,drug_disease
-838,Identification of SPINK1 mutations in 12.2% of patients with adult alcoholic and idiopathic chronic pancreatitis suggests an important role for SPINK1 as a predisposing factor in adult chronic pancreatitis.,gene_disease,drug_disease
-841,We observed no statistically significant interaction between MnSOD genotype and asbestos exposure for lung cancer risk.,gene_disease,drug_disease
-842,Sequence variation in SOD2 is not the major cause of radiotherapy complications in women with breast cancer.,gene_disease,drug_disease
-846,"These data suggest that the Ala allele of MnSOD may modify breast cancer risk among current smokers, but is not an independent risk factor for breast cancer.",gene_disease,drug_disease
-847,"These data suggest that the Ala allele of MnSOD may modify breast cancer risk among current smokers, but is not an independent risk factor for breast cancer.",gene_disease,drug_disease
+797,These data suggest that T-bet variation contributes to airway responsiveness in asthma.,gene_disease,unknown
+835,The SPINK1 N34S mutation appears not to predispose Hispanic or non-Hispanic white people from the USA to the development of Type 2 diabetes mellitus.,gene_disease,unknown
+854,"Thus, we show here that SLC6A4, which has a major influence on brain serotonin availability, may be a QTL for ADHD.",gene_disease,unknown
 858,This indicates that the 5-HTT may be involved in the polygenic etiology of migraine with aura.,gene_disease,unknown
-860,"These results do not suggest a major role of the short variant of 5-HTTLPR in susceptibility to SAD, but provide modest evidence for an effect on seasonality.",gene_disease,unknown
 863,"While our data do not support a major function of the NET gene in the development of panic disorder, it may play a role in the subgroup of panic disorder without agoraphobia.",gene_disease,unknown
-870,"Although the present results should be replicated in other study populations for confirmation, the present results suggest that SLC12A1 may contribute to hypertension in Japanese women.",gene_disease,unknown
-894,This study confirms that Caucasian pediatric patients carrying the functional PAI-1 4G/4G genotype are at an increased risk of developing vascular complications and dying from meningococcal disease.,gene_disease,drug_disease
+864,"The SLC6A14 gene is an interesting novel candidate for obesity because it encodes an amino acid transporter, which potentially regulates tryptophan availability for serotonin synthesis and thus possibly affects appetite control.",gene_disease,drug_gene
+865,"The SLC6A14 gene is an interesting novel candidate for obesity because it encodes an amino acid transporter, which potentially regulates tryptophan availability for serotonin synthesis and thus possibly affects appetite control.",gene_disease,drug_gene
+868,We conclude that  the SLC26A8 mutations are not a common cause of male infertility.,gene_disease,unknown
 902,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
 903,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
 907,"AACT * A6 allele may be associated with AD negatively in Shanghai area, and this effect only exists in non-ApoE * epsilon 4 AD.",gene_disease,unknown
 908,"AACT * A6 allele may be associated with AD negatively in Shanghai area, and this effect only exists in non-ApoE * epsilon 4 AD.",gene_disease,unknown
+909,"In this study, the first undertaken in Brazil into the association of alpha 1 antitrypsin deficiency and cystic fibrosis, we did not find an association between the deficiency and cystic fibrosis severity.",gene_disease,unknown
+910,"In this study, the first undertaken in Brazil into the association of alpha 1 antitrypsin deficiency and cystic fibrosis, we did not find an association between the deficiency and cystic fibrosis severity.",gene_disease,unknown
 922,We conclude from our data that UGRP1 does not play a major role in the development of bronchial asthma in our Caucasian population.,gene_disease,unknown
 929,Our data explain conflicting results in the literature regarding the sequence of S100A2 but provide no support for a direct causal role for S100A2 in psoriasis.,gene_disease,unknown
 930,Our data explain conflicting results in the literature regarding the sequence of S100A2 but provide no support for a direct causal role for S100A2 in psoriasis.,gene_disease,unknown
 932,Our data explain conflicting results in the literature regarding the sequence of S100A2 but provide no support for a direct causal role for S100A2 in psoriasis.,gene_disease,unknown
 933,Our data explain conflicting results in the literature regarding the sequence of S100A2 but provide no support for a direct causal role for S100A2 in psoriasis.,gene_disease,unknown
-938,"Therefore, MSR1 and RNASEL may play a role in prostate cancer progression and severity.",gene_disease,drug_disease
-939,"Considering the high quality in genotyping and the size of this study, these results provide solid evidence against a major role of RNASEL in prostate cancer etiology in Sweden.",gene_disease,drug_disease
-940,Although an increasing number of studies report an association between the RNASEL G1385A variant and prostate cancer risk; this variant does not appear to be implicated in the development of breast cancer.,gene_disease,drug_disease
-965,"Together with previous reports of the association between PTPN22 and type 1 diabetes, as well as rheumatoid arthritis and systemic lupus erythematosus, these results provide compelling evidence that LYP is a critical player in multiple autoimmune disorders.",gene_disease,drug_disease
-966,"Together with previous reports of the association between PTPN22 and type 1 diabetes, as well as rheumatoid arthritis and systemic lupus erythematosus, these results provide compelling evidence that LYP is a critical player in multiple autoimmune disorders.",gene_disease,drug_disease
+941,"We found no evidence that mutation in GUCA1B,GNGT1,or RGS9 gene is a cause of retinitis pigmentosa.",gene_disease,unknown
+945,We conclude that  the renin gene Hind III polymorphysm is associated with hypertension in this Chinese population.,gene_disease,unknown
+965,"Together with previous reports of the association between PTPN22 and type 1 diabetes, as well as rheumatoid arthritis and systemic lupus erythematosus, these results provide compelling evidence that LYP is a critical player in multiple autoimmune disorders.",gene_disease,unknown
+966,"Together with previous reports of the association between PTPN22 and type 1 diabetes, as well as rheumatoid arthritis and systemic lupus erythematosus, these results provide compelling evidence that LYP is a critical player in multiple autoimmune disorders.",gene_disease,unknown
+974,These findings suggest that the change of C to G at position -9 of the PTEN gene is associated with the insulin resistance of type 2 diabetes due possibly to a potentiated hydrolysis of the PI3-kinase product.,gene_disease,drug_gene
+975,These findings suggest that the change of C to G at position -9 of the PTEN gene is associated with the insulin resistance of type 2 diabetes due possibly to a potentiated hydrolysis of the PI3-kinase product.,gene_disease,drug_gene
+976,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+977,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+978,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+979,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
 992,Our result suggests that PPP3CC may not play a major role in Japanese schizophrenia.,gene_disease,unknown
-1006,The PPARgamma-2 genotype was not associated with an increased or reduced risk of the occurrence of CHD and can therefore not be regarded as an independent risk factor for CHD in patients with diabetes mellitus.,gene_disease,drug_disease
-1007,The PPARgamma-2 genotype was not associated with an increased or reduced risk of the occurrence of CHD and can therefore not be regarded as an independent risk factor for CHD in patients with diabetes mellitus.,gene_disease,drug_disease
+1008,"The genetic information about PPAR-delta from this study would be useful for further genetic study of obesity, diabetes, and other metabolic diseases.",gene_disease,unknown
 1009,Our results suggest that POU2F1 is a candidate gene for AD.,gene_disease,unknown
-1012,Our data implicate that the genotypic variation at codon 311 of PON2 contributes to the susceptibility of CAD in the population of Taiwan.,gene_disease,unknown
-1050,The prohibitin T variant does not appear to be associated with risk of ovarian cancer in Australian women.,gene_disease,drug_disease
-1051,The prohibitin T variant does not appear to be associated with risk of ovarian cancer in Australian women.,gene_disease,drug_disease
-1073,Our results demonstrate the existence of 2 unique PARP-1 haplotypes in the Spanish population and provide the first evidence that PARP-1 haplotypes play a role in susceptibility to RA.,gene_disease,unknown
-1074,Our results demonstrate the existence of 2 unique PARP-1 haplotypes in the Spanish population and provide the first evidence that PARP-1 haplotypes play a role in susceptibility to RA.,gene_disease,unknown
-1093,"Thus, the TrkA genotype does not appear to influence the risk of developing sporadic AD in a Japanese population.",gene_disease,unknown
-1100,These data do not support the notion that the NR4A2 gene plays a major role in risk for schizophrenia among Japanese individuals.,gene_disease,unknown
-1105,"These results suggest that the NQO1 variant genotype may modulate lung cancer risk, especially in younger individuals (age<62), women, and never smokers.",gene_disease,drug_disease
-1112,Our results suggest that an interaction between COMT and NOTCH4 genotypes may predict the treatment response to typical neuroleptics in patients with schizophrenia.,gene_disease,drug_disease
-1116,"In conclusion, the present study provided no clear evidence for an association between the NOTCH4 gene and schizophrenia in the Japanese population.",gene_disease,unknown
-1121,Our results imply that chronic inflammation caused by excess nitric oxide generated by iNOS contributes to Helicobacter pylori-induced gastric cancer.,gene_disease,drug_disease
-1147,No association was demonstrated for AD and this particular nNOS polymorphism.,gene_disease,unknown
-1150,No association was demonstrated for AD and this particular nNOS polymorphism.,gene_disease,unknown
-1158,"HLA-DRB1(*)0103 is associated with susceptibility to ulcerative colitis, and IKBL+738(C) marks a propensity to extensive and more severe disease.",gene_disease,drug_disease
-1167,AIB1 repeat genotype does not influence postmenopausal breast cancer risk among Caucasian women in the general population.,gene_disease,drug_disease
-1173,"our data suggest that individuals provided with NAT2*4 and NAT1*10 are at a significantly lower risk for bladder cancer, particularly when exposed to environmental risk factors.",gene_disease,drug_disease
-1174,These results suggested never-smoking females with NAT2 fast acetylator were more prone to lung cancer and reflected the possibility that exposure to heterocyclic amines may contribute to the female lung cancer development in Taiwan.,gene_disease,drug_disease
-1175,These results suggested never-smoking females with NAT2 fast acetylator were more prone to lung cancer and reflected the possibility that exposure to heterocyclic amines may contribute to the female lung cancer development in Taiwan.,gene_disease,drug_disease
-1182,"our data suggest that individuals provided with NAT2*4 and NAT1*10 are at a significantly lower risk for bladder cancer, particularly when exposed to environmental risk factors.",gene_disease,drug_disease
-1183,Our results suggest that the NAT2 status has a differential effect on the association of active and passive smoking with breast cancer and demonstrate the need to consider possible different mechanisms associated with exposure to main- and sidestream tobacco smoke.,gene_disease,drug_disease
-1186,"The coincidence of NAT1-fast/NAT2-slow appears as a potential risk factor for urinary bladder cancer (OR 1.5, 0.8-3.0), as compared with the other genotype combinations.",gene_disease,drug_disease
-1187,"our data suggest that individuals provided with NAT2*4 and NAT1*10 are at a significantly lower risk for bladder cancer, particularly when exposed to environmental risk factors.",gene_disease,drug_disease
-1188,"our data suggest that individuals provided with NAT2*4 and NAT1*10 are at a significantly lower risk for bladder cancer, particularly when exposed to environmental risk factors.",gene_disease,drug_disease
-1200,Our results confirm the previous reports showing that the variant A allele of MPO has a protective effect against risk of lung cancer.,gene_disease,drug_disease
-1202,"Results from this first study of MPO genotypes and breast cancer risk indicate that MPO variants, related to reduced generation of ROS, are associated with decreased breast cancer risk, and emphasize the importance of fruit and vegetable consumption in reduction of breast cancer risk.",gene_disease,drug_disease
-1203,"Results from this first study of MPO genotypes and breast cancer risk indicate that MPO variants, related to reduced generation of ROS, are associated with decreased breast cancer risk, and emphasize the importance of fruit and vegetable consumption in reduction of breast cancer risk.",gene_disease,drug_disease
-1204,"Results from this first study of MPO genotypes and breast cancer risk indicate that MPO variants, related to reduced generation of ROS, are associated with decreased breast cancer risk, and emphasize the importance of fruit and vegetable consumption in reduction of breast cancer risk.",gene_disease,drug_disease
-1205,"Results from this first study of MPO genotypes and breast cancer risk indicate that MPO variants, related to reduced generation of ROS, are associated with decreased breast cancer risk, and emphasize the importance of fruit and vegetable consumption in reduction of breast cancer risk.",gene_disease,drug_disease
-1206,"Results from this first study of MPO genotypes and breast cancer risk indicate that MPO variants, related to reduced generation of ROS, are associated with decreased breast cancer risk, and emphasize the importance of fruit and vegetable consumption in reduction of breast cancer risk.",gene_disease,drug_disease
-1207,"Results from this first study of MPO genotypes and breast cancer risk indicate that MPO variants, related to reduced generation of ROS, are associated with decreased breast cancer risk, and emphasize the importance of fruit and vegetable consumption in reduction of breast cancer risk.",gene_disease,drug_disease
-1289,"Our findings suggest that MBL may be involved in the pathogenesis of micro- and macrovascular complications in type 1 diabetes, and that determination of MBL status might be used to identify patients at increased risk of developing these complications.",gene_disease,drug_disease
-1290,"Our findings suggest that MBL may be involved in the pathogenesis of micro- and macrovascular complications in type 1 diabetes, and that determination of MBL status might be used to identify patients at increased risk of developing these complications.",gene_disease,drug_disease
-1298,The present results support the involvement of the MAOA gene in men with schizophrenia in the investigated Swedish population but should be interpreted with caution until replicated.,gene_disease,unknown
+1048,Autosomal recessive mutations in PINK1 are a rare cause of young-onset Parkinson disease.,gene_disease,unknown
+1057,"In conclusion, alterations in the PDE3B gene are unlikely to contribute importantly to the pathogenesis of type 2 diabetes mellitus or lipoatrophic diabetes mellitus in Japan.",gene_disease,unknown
+1058,"In conclusion, alterations in the PDE3B gene are unlikely to contribute importantly to the pathogenesis of type 2 diabetes mellitus or lipoatrophic diabetes mellitus in Japan.",gene_disease,unknown
+1121,Our results imply that chronic inflammation caused by excess nitric oxide generated by iNOS contributes to Helicobacter pylori-induced gastric cancer.,gene_disease,unknown
+1183,Our results suggest that the NAT2 status has a differential effect on the association of active and passive smoking with breast cancer and demonstrate the need to consider possible different mechanisms associated with exposure to main- and sidestream tobacco smoke.,gene_disease,unknown
+1236,"These data imply the involvement of MMP3 in chronic remodelling after conventional balloon angioplasty, and suggest that the 6A6A MMP3 genotype is a genetic susceptibility factor for restenosis after angioplasty without stenting.",gene_disease,unknown
+1237,"These data imply the involvement of MMP3 in chronic remodelling after conventional balloon angioplasty, and suggest that the 6A6A MMP3 genotype is a genetic susceptibility factor for restenosis after angioplasty without stenting.",gene_disease,unknown
+1238,"These data imply the involvement of MMP3 in chronic remodelling after conventional balloon angioplasty, and suggest that the 6A6A MMP3 genotype is a genetic susceptibility factor for restenosis after angioplasty without stenting.",gene_disease,unknown
+1239,"These data imply the involvement of MMP3 in chronic remodelling after conventional balloon angioplasty, and suggest that the 6A6A MMP3 genotype is a genetic susceptibility factor for restenosis after angioplasty without stenting.",gene_disease,unknown
+1283,A new 12138InsCAGACC MC3R polymorphism is associated with the level of adiposity and with body fat partitioning in interaction with corpulence in humans.,gene_disease,unknown
+1294,These associations suggest that the MATN3 region also determines susceptibility to spinal disc degeneration and CMC1 osteoarthritis.,gene_disease,unknown
+1295,The results support a possible role of the MAO-A gene in anxiety disorders.,gene_disease,unknown
 1314,"We conclude that  LTC(4) S genotype is predictive of the clinical response to a cysLT(1) antagonist, pranlukast, in Japanese patients with moderate asthma.",gene_disease,drug_disease
-1315,"The 10.5-kb homozygote of TNF-beta gene is associated with a prolonged survival in patients with gastric cancer, as has been shown in the patients with lung cancer.",gene_disease,drug_disease
 1318,These results support the possibility that ApoE and LRP may contribute to the development of AD.,gene_disease,unknown
-1321,The Ter447 variant of LPL is associated with decreased risk of brain infarction and coronary artery disease in our very elderly population.,gene_disease,drug_disease
+1321,The Ter447 variant of LPL is associated with decreased risk of brain infarction and coronary artery disease in our very elderly population.,gene_disease,unknown
 1323,We conclude that  LPL cannot be a major factor in pathogenesis of AD.,gene_disease,unknown
-1326,"1) the LIPC promoter polymorphism contributes to variation in HLA and HDL(2) in the three ethnic groups; 2) WA men had higher HLA than BA and JA men, related to ethnic differences in central adiposity but not LIPC allele frequency; and 3) the higher HLA in WA men did not contribute to the ethnic differences in HDL, as the differences in HDL were made up entirely of differences in HDL(3) and not HDL(2).",gene_disease,unknown
-1327,"1) the LIPC promoter polymorphism contributes to variation in HLA and HDL(2) in the three ethnic groups; 2) WA men had higher HLA than BA and JA men, related to ethnic differences in central adiposity but not LIPC allele frequency; and 3) the higher HLA in WA men did not contribute to the ethnic differences in HDL, as the differences in HDL were made up entirely of differences in HDL(3) and not HDL(2).",gene_disease,unknown
-1335,ILT6 deficiency is associated with MS in the German population and hence a likely risk factor for autoimmune disorders.,gene_disease,drug_disease
-1356,We conclude that  these variants in KCNJ10 are unlikely to be the cause of linkage of type 2 diabetes with 1q in Pima Indians.,gene_disease,unknown
 1357,These observations weaken the proposal that MiRP2-R83H causes periodic paralysis.,gene_disease,unknown
-1369,"These data demonstrate that the Arg(972) IRS-1 variant is associated with increased risk for secondary failure to sulfonylurea, thus representing a potential example of pharmacogenetics in type 2 diabetes.",gene_disease,drug_disease
-1374,"Our findings indicate that the IRS-1 Gly972Arg variant does not substantially increase risk of common Type 2 diabetes, or Type 2 diabetes in obese persons.",gene_disease,drug_disease
-1375,"Our findings indicate that the IRS-1 Gly972Arg variant does not substantially increase risk of common Type 2 diabetes, or Type 2 diabetes in obese persons.",gene_disease,drug_disease
-1393,"The observed association suggests that individuals with interleukin-8-251TT and interleukin-10-819TT, a combination presumably causing mild inflammation, have a higher probability of the continuing Helicobacter pylori infection, especially among current smokers.",gene_disease,drug_disease
-1404,"We conclude that  IL-4-589*T, but not TNF-alpha-308*2 or Fcalpha RIbeta*G, is a risk factor for the development of atopy, asthma, and rhinitis by 12 mo of age.",gene_disease,drug_disease
-1407,"If confirmed by others, our results indicate that more intensive GVHD prophylaxis is needed for patients with at least one IL-2 G allele, possibly directed toward blunting early host cell production of IL-2.",gene_disease,drug_disease
-1408,"If confirmed by others, our results indicate that more intensive GVHD prophylaxis is needed for patients with at least one IL-2 G allele, possibly directed toward blunting early host cell production of IL-2.",gene_disease,drug_disease
+1404,"We conclude that  IL-4-589*T, but not TNF-alpha-308*2 or Fcalpha RIbeta*G, is a risk factor for the development of atopy, asthma, and rhinitis by 12 mo of age.",gene_disease,unknown
 1441,"TT genotype of IL-13-1055 is not an independent factor for COPD in Chinese Han people in Beijing, but increases the risk for smokers to develop COPD and the one who has COPD family history as well.",gene_disease,unknown
 1442,"TT genotype of IL-13-1055 is not an independent factor for COPD in Chinese Han people in Beijing, but increases the risk for smokers to develop COPD and the one who has COPD family history as well.",gene_disease,unknown
 1443,"TT genotype of IL-13-1055 is not an independent factor for COPD in Chinese Han people in Beijing, but increases the risk for smokers to develop COPD and the one who has COPD family history as well.",gene_disease,unknown
-1453,"The observed association suggests that individuals with interleukin-8-251TT and interleukin-10-819TT, a combination presumably causing mild inflammation, have a higher probability of the continuing Helicobacter pylori infection, especially among current smokers.",gene_disease,drug_disease
-1466,Our study suggests that a genetically determined exposure to relatively low IGF-I levels is associated with an increased risk for type 2 diabetes and myocardial infarction.,gene_disease,drug_disease
-1481,These results provide strong evidence for pathogenic variant(s) in the 276-kb region harboring IDE that influence intermediate AD phenotypes and risk for AD.,gene_disease,unknown
-1482,These results provide strong evidence for pathogenic variant(s) in the 276-kb region harboring IDE that influence intermediate AD phenotypes and risk for AD.,gene_disease,unknown
-1519,"In conclusion, these data do not support the idea that HTR1B gene plays a major role in the etiopathogenesis of schizophrenia in Chinese Han population.",gene_disease,unknown
-1523,These findings show no evidence for association between HSPG2 intron 6 BamHI polymorphism and AD in our population.,gene_disease,unknown
-1533,"Therefore, although we cannot exclude the possibility that the samples in the two studies are intrinsically different, our data from our sample argue against a major role for HOXA1 (His)73(Arg) in liability to autism.",gene_disease,unknown
-1536,"The AA genotype of HMOX1 reduced the incidence of ischemic heart disease, possibly due to the high expression level of HMOX1.",gene_disease,drug_disease
-1537,"The AA genotype of HMOX1 reduced the incidence of ischemic heart disease, possibly due to the high expression level of HMOX1.",gene_disease,drug_disease
-1545,"Our results suggest that HLA-DQB1*0502 may be involved in the development of pulmonary tuberculosis, whereas HLA-DQA1*0601 and DQB1*0301 may be associated with protection against tuberculosis.",gene_disease,drug_disease
-1549,"Our results suggest that HLA-DQB1*0502 may be involved in the development of pulmonary tuberculosis, whereas HLA-DQA1*0601 and DQB1*0301 may be associated with protection against tuberculosis.",gene_disease,drug_disease
+1446,IL12B may be an important asthma gene.,gene_disease,unknown
+1456,"Polymorphism of IL-10 -819C/T SNP site is associated with susceptibility to COPD in Chinese Han people; at least five haplotypes of IL-10 gene promoter (ATA, ACC, GCC, ATC and ACA) exist in Chinese Han people.",gene_disease,unknown
+1457,"Polymorphism of IL-10 -819C/T SNP site is associated with susceptibility to COPD in Chinese Han people; at least five haplotypes of IL-10 gene promoter (ATA, ACC, GCC, ATC and ACA) exist in Chinese Han people.",gene_disease,unknown
+1499,"The study showed a positive association between panic disorder and the HTR2A gene, suggesting that HTR2A plays an important role in the pathogenesis of panic disorder.",gene_disease,unknown
+1500,"The study showed a positive association between panic disorder and the HTR2A gene, suggesting that HTR2A plays an important role in the pathogenesis of panic disorder.",gene_disease,unknown
+1501,"The study showed a positive association between panic disorder and the HTR2A gene, suggesting that HTR2A plays an important role in the pathogenesis of panic disorder.",gene_disease,unknown
+1502,"The study showed a positive association between panic disorder and the HTR2A gene, suggesting that HTR2A plays an important role in the pathogenesis of panic disorder.",gene_disease,unknown
+1541,"This observation suggests a possible role for HLA-E in NPC development, possibly via natural killer cell or cytotoxic lymphocyte function.",gene_disease,drug_gene
+1545,"Our results suggest that HLA-DQB1*0502 may be involved in the development of pulmonary tuberculosis, whereas HLA-DQA1*0601 and DQB1*0301 may be associated with protection against tuberculosis.",gene_disease,unknown
+1549,"Our results suggest that HLA-DQB1*0502 may be involved in the development of pulmonary tuberculosis, whereas HLA-DQA1*0601 and DQB1*0301 may be associated with protection against tuberculosis.",gene_disease,unknown
 1554,No significant association between the HLA-DP and HLA-DQ loci and NPC in Han nationality in Hunan province was confirmed.,gene_disease,unknown
 1559,"Thus, neither HLA DMA nor DMB was associated with RA in this population, and not all shared-epitope-bearing haplotypes had the same DMB allele distribution.",gene_disease,unknown
 1560,"Thus, neither HLA DMA nor DMB was associated with RA in this population, and not all shared-epitope-bearing haplotypes had the same DMB allele distribution.",gene_disease,unknown
 1565,"Thus, neither HLA DMA nor DMB was associated with RA in this population, and not all shared-epitope-bearing haplotypes had the same DMB allele distribution.",gene_disease,unknown
-1573,"These findings show that, unlike what has been consistently demonstrated in the general population, p53 mutations are uncommon in gastric cancer occurring in young patients, and in such patients, p53 alterations are significantly associated with the cardiac location.",gene_disease,drug_disease
-1574,"These findings show that, unlike what has been consistently demonstrated in the general population, p53 mutations are uncommon in gastric cancer occurring in young patients, and in such patients, p53 alterations are significantly associated with the cardiac location.",gene_disease,drug_disease
-1583,TPH variants may be a possible factor influencing the prophylactic efficacy of lithium in mood disorders.,gene_disease,drug_disease
-1586,These results suggest that the TPH gene may play a role in the negative symptoms in male patients with schizophrenia.,gene_disease,drug_disease
-1615,"We conclude that  carriers of a VEGF 936T-allele are at decreased risk for breast cancer, this, however, requiring further confirmation in a larger study.",gene_disease,drug_disease
-1618,"We conclude that  carriers of a VEGF 936T-allele are at decreased risk for breast cancer, this, however, requiring further confirmation in a larger study.",gene_disease,drug_disease
-1650,We conclude that  the rare APOC3 G allele may offer some protection against the development of sporadic AD in APOE epsilon4 noncarriers in Chinese.,gene_disease,unknown
-1679,Our results suggest that an interaction between COMT and NOTCH4 genotypes may predict the treatment response to typical neuroleptics in patients with schizophrenia.,gene_disease,drug_disease
+1568,Our data suggest that neither the +36 TNFRSF1A SNP nor the +196 TNFRSF1B SNP is associated with RA severity in a population of Caucasian patients with RA.,gene_disease,unknown
+1569,Our data suggest that neither the +36 TNFRSF1A SNP nor the +196 TNFRSF1B SNP is associated with RA severity in a population of Caucasian patients with RA.,gene_disease,unknown
+1572,"In conclusion, TNNT2 deletion allele could be associated with a predisposition to prominent left ventricular hypertrophy.",gene_disease,unknown
+1575,"Combined with staging, direct monitoring of p53 mutation improves prognostic accuracy for colorectal cancer.",gene_disease,unknown
+1583,TPH variants may be a possible factor influencing the prophylactic efficacy of lithium in mood disorders.,gene_disease,unknown
+1646,"Our results suggest that bladder-cancer risk can be genetically modulated by XRCC3, which may repair DNA cross-link lesions produced by aromatic amines and other environmental chemicals.",gene_disease,unknown
+1678,The findings support the hypothesis that comorbid panic disorder identifies a genetic subtype of bipolar disorder and suggest a role for COMT and 5-HTT in vulnerability to these disorders.,gene_disease,unknown
 1689,The study demonstrates that patients who develop myalgia while taking atorvastatin are more likely to experience a greater degree of muscle damage if they express two copies of CYP3A5*3.,gene_disease,drug_disease
-1690,The present results do not support a major involvement of the DBH gene in schizophrenia in the Swedish population investigated.,gene_disease,unknown
 1691,"Taken together, these results do not provide support for a role of the DBH TaqI marker in our persistent ADHD samples.",gene_disease,unknown
-1695,"In conclusion, FcgammaRIIIA-176F/V polymorphism is not associated with SLE in Koreans.",gene_disease,unknown
-1696,"In conclusion, FcgammaRIIIA-176F/V polymorphism is not associated with SLE in Koreans.",gene_disease,unknown
 1697,"Crohn's disease patients with FCGR3A-158 V/V genotype have a better biological and, possibly, clinical response to infliximab.",gene_disease,drug_disease
 1699,Our results seems to confirm previous observations on the non random association between POF and FRAXA premutation.,gene_disease,unknown
-1700,"HLA-DRB1(*)0103 is associated with susceptibility to ulcerative colitis, and IKBL+738(C) marks a propensity to extensive and more severe disease.",gene_disease,drug_disease
-1735,The results of this study provide evidence that variants in both the P1 and P2 promoters of HNF4A increase risk for typical type 2 diabetes.,gene_disease,drug_disease
-1738,"Consistent with results from studies of Finnish and Ashkenazi Jewish subjects, variation near the P2 region of HNF4A is associated with type 2 diabetes in the Danish population.",gene_disease,unknown
 1775,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
 1776,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
-1781,The eNOS G894T or eNOS 894TT genotypes in combination with the MTHFR 677TT or ACE D/D genotype increases the risk of ischaemic stroke.,gene_disease,unknown
-1789,Our study does not support the conclusion that the eNOS Asp298 allele contributes to the development of premature CAD.,gene_disease,unknown
-1790,"In a large case-control study, and in contrast to some earlier positive findings by others, we have found no evidence for an association between several eNOS gene polymorphisms and premature CAD in an Australian Caucasian population.",gene_disease,unknown
-1791,The C allele at the T(-786)C endothelial nitric oxide synthase polymorphism is associated with a higher risk of multivessel CAD in Caucasians.,gene_disease,drug_gene
-1794,"Although based on a limited number of patients, our work suggests that individuals who are NOS3-CC + ACE-DD are at a higher risk for early CAD, probably as a consequence of increased endothelial dysfunction.",gene_disease,drug_disease
+1780,"Hyperhomocysteinemia, but not MTHFR 677C --> T mutation, is a risk factor for venous thromboembolism in young adults without other thrombogenic factors.",gene_disease,unknown
+1791,The C allele at the T(-786)C endothelial nitric oxide synthase polymorphism is associated with a higher risk of multivessel CAD in Caucasians.,gene_disease,unknown
 1798,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
 1799,"In conclusion, there was no association between the beta-fibrinogen -455 G/A, GP IIIa PlA1/A2, PAI-1 4G/5G, factor V Leiden 1691 G/A, TNFalpha -238 G/A, TNFalpha -308 G/A, IL-1alpha -889 C/T, the IL-1beta -511 C/T, MTHFR 677 C/T and eNOS 4 b/a gene polymorphisms and the risk of restenosis after PTCA as well as recurrent restenosis after repeated PTCA.",gene_disease,unknown
-1801,"In a large case-control study, and in contrast to some earlier positive findings by others, we have found no evidence for an association between several eNOS gene polymorphisms and premature CAD in an Australian Caucasian population.",gene_disease,unknown
-1802,Our study does not support the conclusion that the eNOS Asp298 allele contributes to the development of premature CAD.,gene_disease,unknown
-1805,"In patients with coronary artery disease, the possession of the 298Asp and -786C variants of the eNOS gene are a risk factor for coronary in-stent restenosis, demonstrating the importance of the nitric oxide system in restenosis.",gene_disease,drug_disease
-1814,Result showed that the coronary artery disease of the Turkish population seemed to develop without any alterations in eNOS Glu298Asp genotype frequency and the serum nitric oxide level.,gene_disease,drug_disease
-1815,The eNOS intron 4 polymorphism may be a marker of multi-vessel CAD in African Americans and Caucasians.,gene_disease,unknown
-1820,The C allele at the T(-786)C endothelial nitric oxide synthase polymorphism is associated with a higher risk of multivessel CAD in Caucasians.,gene_disease,drug_gene
-1821,"For patients with heart failure caused by systolic function, the Asp298 variant of NOS3 is associated with poorer event-free survival, particularly in patients with nonischemic cardiomyopathy.",gene_disease,drug_disease
-1824,"In contrast to the findings in Japanese women, preeclampsia was not associated with the Asp variant of eNOS in an American population.",gene_disease,unknown
-1832,The eNOS G894T or eNOS 894TT genotypes in combination with the MTHFR 677TT or ACE D/D genotype increases the risk of ischaemic stroke.,gene_disease,unknown
-1833,The eNOS G894T or eNOS 894TT genotypes in combination with the MTHFR 677TT or ACE D/D genotype increases the risk of ischaemic stroke.,gene_disease,unknown
+1805,"In patients with coronary artery disease, the possession of the 298Asp and -786C variants of the eNOS gene are a risk factor for coronary in-stent restenosis, demonstrating the importance of the nitric oxide system in restenosis.",gene_disease,unknown
+1816,These results suggest that premature coronary artery disease is associated with the Glu298Asp polymorphism of the endothelial nitric oxide synthase gene in our population.,gene_disease,unknown
+1820,The C allele at the T(-786)C endothelial nitric oxide synthase polymorphism is associated with a higher risk of multivessel CAD in Caucasians.,gene_disease,unknown
+1821,"For patients with heart failure caused by systolic function, the Asp298 variant of NOS3 is associated with poorer event-free survival, particularly in patients with nonischemic cardiomyopathy.",gene_disease,unknown
 1849,We conclude that  TRAR4 is not a major or independent determinant in the occurrence of schizophrenia in the Chinese Han population.,gene_disease,unknown
 1855,Our data support LBP-1c/CP2/LSF as a candidate gene/risk factor for AD and provide justification for future studies to investigate the role of this gene in Alzheimer's disease.,gene_disease,unknown
 1856,Our data support LBP-1c/CP2/LSF as a candidate gene/risk factor for AD and provide justification for future studies to investigate the role of this gene in Alzheimer's disease.,gene_disease,unknown
@@ -273,72 +170,51 @@
 1858,Our data support LBP-1c/CP2/LSF as a candidate gene/risk factor for AD and provide justification for future studies to investigate the role of this gene in Alzheimer's disease.,gene_disease,unknown
 1859,Our data support LBP-1c/CP2/LSF as a candidate gene/risk factor for AD and provide justification for future studies to investigate the role of this gene in Alzheimer's disease.,gene_disease,unknown
 1860,Our data support LBP-1c/CP2/LSF as a candidate gene/risk factor for AD and provide justification for future studies to investigate the role of this gene in Alzheimer's disease.,gene_disease,unknown
-1861,Our data suggest that genotyping patients for the thymidylate synthase polymorphism would be useful in identifying patients who are more likely to respond to capecitabine treatment for advanced colorectal cancer.,gene_disease,drug_disease
-1862,These results warrant further large-scale clinical study of the role of the TS genotyping for the prediction of efficacy using 5-FU-based chemotherapy and prognosis in gastric cancer.,gene_disease,drug_disease
+1878,"Most patients with Gilbert's syndrome, in addition to their reduced B-UGT enzyme activity, may have abnormalities in the glucuronidation of aspirin or coumarin- and dopamine-derivatives, due to this combination of UGT1A1*28 and UGT1A6*2 genotypes.",gene_disease,drug_disease
 1880,"These observations suggest that lower expression of UGT1A1 decreases the risk of endometrial cancer by reducing the excretion of 2-hydroxyestradiol, the antiproliferative metabolite of E(2), in the endometrium.",gene_disease,drug_gene
-1881,"In conclusion, the prevalence of UGT1A1*28 found in mucinous OCP could suggest a role in the development of specific histologic sub-groups and could become a marker to be considered when planning ovarian cancer chemotherapy.",gene_disease,drug_disease
-1910,These results suggest that TCF7L2 variants may act through insulin secretion to increase the risk of type 2 diabetes.,gene_disease,drug_disease
-1912,"In conclusion, the determination of the CDKN1B genotype might be a powerful tool for the prognosis of patients with early breast cancer.",gene_disease,drug_disease
-1921,"We conclude that  IL-4-589*T, but not TNF-alpha-308*2 or Fcalpha RIbeta*G, is a risk factor for the development of atopy, asthma, and rhinitis by 12 mo of age.",gene_disease,drug_disease
-1922,"We conclude that  the alpha-adducin gene is a significant, independent risk factor for hypertension in whites, but not in blacks, and may play a particularly important role for subjects with certain constellations of other risk factors.",gene_disease,unknown
-1950,We conclude that  there is no association of the DRD4 locus with alcoholism in Taiwanese populations.,gene_disease,unknown
+1884,"Most patients with Gilbert's syndrome, in addition to their reduced B-UGT enzyme activity, may have abnormalities in the glucuronidation of aspirin or coumarin- and dopamine-derivatives, due to this combination of UGT1A1*28 and UGT1A6*2 genotypes.",gene_disease,drug_disease
+1913,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+1914,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+1915,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+1916,Our novel observation of a differential effect of OC use on breast cancer risk by PTCH1 1315Leu-carrier status suggests the interesting possibility of the Sonic hedgehog/Patched (SHH/PTCH1) signaling pathway being involved in hormone-induced development of breast carcinoma.,gene_disease,drug_gene
+1917,We conclude that  the analyzed SNPs in GAL and GALR1 do not play a major role in early onset obesity or dietary fat intake in the obese children and adolescents of our study groups.,gene_disease,unknown
+1918,We conclude that  the analyzed SNPs in GAL and GALR1 do not play a major role in early onset obesity or dietary fat intake in the obese children and adolescents of our study groups.,gene_disease,unknown
+1921,"We conclude that  IL-4-589*T, but not TNF-alpha-308*2 or Fcalpha RIbeta*G, is a risk factor for the development of atopy, asthma, and rhinitis by 12 mo of age.",gene_disease,unknown
 1957,"The increased sepsis rate of homozygous IL6-174G carriers was especially related to an increase in Gram-positive infections, and was not observed in VLBW infants who received prophylaxis with teicoplanin (frequency of Gram-positive sepsis in homozygous IL6-174G carriers without prophylaxis 16.5% versus 2.4% in homozygous IL6-174G carriers with prophylaxis; p = 0.033).",gene_disease,drug_disease
 1958,"The increased sepsis rate of homozygous IL6-174G carriers was especially related to an increase in Gram-positive infections, and was not observed in VLBW infants who received prophylaxis with teicoplanin (frequency of Gram-positive sepsis in homozygous IL6-174G carriers without prophylaxis 16.5% versus 2.4% in homozygous IL6-174G carriers with prophylaxis; p = 0.033).",gene_disease,drug_disease
 1959,"The increased sepsis rate of homozygous IL6-174G carriers was especially related to an increase in Gram-positive infections, and was not observed in VLBW infants who received prophylaxis with teicoplanin (frequency of Gram-positive sepsis in homozygous IL6-174G carriers without prophylaxis 16.5% versus 2.4% in homozygous IL6-174G carriers with prophylaxis; p = 0.033).",gene_disease,drug_disease
-1971,"Therefore, MSR1 and RNASEL may play a role in prostate cancer progression and severity.",gene_disease,drug_disease
-1974,"The CTLA4 gene is strongly associated with, and linked to IDDM in a Russian population.",gene_disease,unknown
-1988,"For a similar level of exposure to established carcinogens, individuals with the MPO A-allele genotypes appear to have a reduced risk of lung cancer.",gene_disease,drug_disease
-2005,"Our investigation suggests that the two promoter SNPs are unrelated to the development of AD, however, further investigation at the promoter region of NCSTN may be necessary to address its potential implication of gene expression in AD.",gene_disease,unknown
-2006,"Our investigation suggests that the two promoter SNPs are unrelated to the development of AD, however, further investigation at the promoter region of NCSTN may be necessary to address its potential implication of gene expression in AD.",gene_disease,unknown
-2010,Our results do not support MSR1 as a risk factor for prostate cancer.,gene_disease,drug_disease
-2023,"The incidence of BRCA1 mutations in Chinese patients with early onset breast cancer is similar to that reported from western countries, but the incidence of mutations in Chinese breast cancer patients with affected relatives is comparatively low.",gene_disease,drug_disease
-2024,"The incidence of BRCA1 mutations in Chinese patients with early onset breast cancer is similar to that reported from western countries, but the incidence of mutations in Chinese breast cancer patients with affected relatives is comparatively low.",gene_disease,drug_disease
+2010,Our results do not support MSR1 as a risk factor for prostate cancer.,gene_disease,unknown
 2025,genomic variations of CAST are not likely to be substantially involved in the etiology of AD.,gene_disease,unknown
-2040,"Among the 3 genes examined in this study, HLA-DRB1 was considered to be most strongly associated with RA.",gene_disease,unknown
+2030,"These preliminary data suggest a modest positive association of caffeine and coffee consumption with the OR for ovarian cancer that may be modified by CYP1A2 genotype and exposures, such as cruciferous vegetable consumption, that influence CYP1A2 expression.",gene_disease,unknown
+2031,"These preliminary data suggest a modest positive association of caffeine and coffee consumption with the OR for ovarian cancer that may be modified by CYP1A2 genotype and exposures, such as cruciferous vegetable consumption, that influence CYP1A2 expression.",gene_disease,unknown
 2042,"These preliminary results suggest a possible association between variation in HTR2A, childhood ADHD, and the later development of SAD in women.",gene_disease,unknown
-2043,These results provide strong evidence for pathogenic variant(s) in the 276-kb region harboring IDE that influence intermediate AD phenotypes and risk for AD.,gene_disease,unknown
-2044,These results provide strong evidence for pathogenic variant(s) in the 276-kb region harboring IDE that influence intermediate AD phenotypes and risk for AD.,gene_disease,unknown
-2045,The -2849 IL-10 promoter polymorphism is associated with autoantibody production and subsequent joint damage in RA.,gene_disease,unknown
-2047,"We conclude that  variations in MC4R may account for a small portion of obesity in Pima Indians, but they do not explain the overall high prevalence of obesity in this Native American population.",gene_disease,unknown
-2048,"We conclude that  variations in MC4R may account for a small portion of obesity in Pima Indians, but they do not explain the overall high prevalence of obesity in this Native American population.",gene_disease,unknown
-2050,These findings contrast with those from previous studies that report decreased lung cancer risk among MPO variant individ,gene_disease,drug_disease
-2053,"PAI-1 polymorphism is not associated with genesis of IgA nephropathy, but may be a risk factor for the progression of IgA nephropathy in Japanese.",gene_disease,unknown
-2054,"PAI-1 polymorphism is not associated with genesis of IgA nephropathy, but may be a risk factor for the progression of IgA nephropathy in Japanese.",gene_disease,unknown
-2072,We concluded that endostatin polymorphism was not associated with the aggressiveness of prostate cancer in Caucasian patients.,gene_disease,drug_disease
-2084,"Taken together, our results provide the first important evidence that the newly discovered 734Ile allele in ABCC9 might influence susceptibility to precocious MI in our population.",gene_disease,unknown
-2085,"In patients with CHF, the presence of AF was significantly associated with certain ACE and eNOS genotypes.",gene_disease,drug_disease
+2058,A frameshifting 2-base pair insertion at codon 99 of the RPGR gene produced typical retinitis pigmentosa and carrier findings (but no tapetallike reflex) in this family.,gene_disease,unknown
+2064,We conclude that  the analyzed SNPs in GAL and GALR1 do not play a major role in early onset obesity or dietary fat intake in the obese children and adolescents of our study groups.,gene_disease,unknown
+2065,We conclude that  the analyzed SNPs in GAL and GALR1 do not play a major role in early onset obesity or dietary fat intake in the obese children and adolescents of our study groups.,gene_disease,unknown
+2081,The mdr-1 polymorphism G2677T/A in exon 21 correlates with the paclitaxel response in ovarian cancer and may be important for the function of P-glycoprotein and resistance to paclitaxel and provide useful information for individualized therapy.,gene_disease,drug_gene
 2088,The ACE DD genotype is associated with the development of incipient diabetic nephropathy and established diabetic nephropathy in a Mexican population.,gene_disease,unknown
-2089,the ACE2 T allele confers a high risk for hypertension and reduced antihypertensive response to ACE inhibitors.,gene_disease,drug_disease
-2097,ALDH2 polymorphisms may play an important role in the pathogenesis of MI in elderly Korean men.,gene_disease,unknown
+2098,These results suggest that common variations in ALG9 do not play a major role in predisposition to bipolar affective disorder.,gene_disease,unknown
 2100,we report significant association of variants of ALOX5AP with ischemic stroke and ischemic stroke subtypes among whites.,gene_disease,unknown
 2101,we report significant association of variants of ALOX5AP with ischemic stroke and ischemic stroke subtypes among whites.,gene_disease,unknown
 2103,the evidence for an association between APC I1307K and prostate cancer is not compelling.,gene_disease,unknown
-2104,it is unlikely that APC E1317Q is associated with a clinically meaningful risk of colorectal cancer.,gene_disease,drug_disease
-2129,"it does not seem that variants in MnSOD, CAT, or GPX1 have an influence on prostate cancer risk in this cohort of men who were smokers or exposed to asbestos, although it is possible that cumulative defects in protection from oxidative stress may result in increased risk of the disease.",gene_disease,drug_disease
-2131,"In our cohort of white Spaniards, homozygosity for the variant CCL2-2518GG genotype is overrepresented in HIV-1-infected subjects.",gene_disease,unknown
-2157,The CFH polymorphism Tyr402His appears indicative of AMD pathogenesis.,gene_disease,unknown
+2110,APOE and PVRL2 have little or no effect on the clinical outcome of MS.,gene_disease,unknown
+2111,"there is no main effect of APOE in our autism data set, nor is there any evidence for a joint effect of APOE with RELN.",gene_disease,unknown
+2112,"there is no main effect of APOE in our autism data set, nor is there any evidence for a joint effect of APOE with RELN.",gene_disease,unknown
+2154,Our data suggest that the CFH gene determines susceptibility to myocardial infarction.,gene_disease,unknown
 2160,We have found differences in the association between the CFH gene and exudative AMD in Chinese from Caucasians and Japanese.,gene_disease,unknown
-2161,Smoking and having the CFH CC genotype independently increase risk of neovascular AMD.,gene_disease,unknown
-2176,our LD analysis did not reveal any association between schizophrenia in our Han Chinese population and the CHRNA7 gene or its partially duplicated region.,gene_disease,unknown
-2177,We did not confirm the previously reported association of this MHC2TA polymorphism with RA in our UK population despite its ethnic similarities with the Swedish population in which it was first described.,gene_disease,unknown
-2199,Subjects that carry the m2 allelic variant of CYP1A1 and are exposed to tobacco smoke or alcohol have a significantly higher risk of developing gastric cancer.,gene_disease,drug_disease
+2183,"we could not find evidence of association between RGS4, PRODH, COMT and GRK3 genes and bipolar affective disorder 1 in the Scottish population.",gene_disease,unknown
 2209,The association of CYP2C9*3 with hyperlipidaemia was specific for females in this Chinese population.,gene_disease,unknown
-2211,There is an association of CYP2C9 coding region polymorphisms with the risk of developing CRC in Han Chinese after genotyping cases and controls recruited from different locations in China.,gene_disease,unknown
-2212,Drugs that are metabolized by CYP2C9 increase the risk of myocardial infarction in women.,gene_disease,drug_disease
-2228,This study provides preliminary and unconfirmed evidence for the involvement of the DRD4 repeat VNTR in the pathogenesis of schizophrenia.,gene_disease,unknown
-2235,Our results suggested that ECE-1b-338C to A variant might be associated with increased risk of CAD in Chinese population.,gene_disease,unknown
-2237,This study suggests that EDN1 is related to the development of vitiligo in the Korean population.,gene_disease,unknown
+2212,Drugs that are metabolized by CYP2C9 increase the risk of myocardial infarction in women.,gene_disease,unknown
+2227,"there is a statistically significant association between ADHD and dopamine system genes, especially DRD4 and DRD5.",gene_disease,unknown
+2229,"there is a statistically significant association between ADHD and dopamine system genes, especially DRD4 and DRD5.",gene_disease,unknown
+2234,This large case-control study argues for an only minor-if any-role of the ET-1 and ECE-1 genotype for the risk of coronary artery disease development.,gene_disease,unknown
+2236,This large case-control study argues for an only minor-if any-role of the ET-1 and ECE-1 genotype for the risk of coronary artery disease development.,gene_disease,unknown
 2239,"These findings suggest that transforming growth factor-beta 1, tumor necrosis factor-alpha, epidermal growth factor receptor, and vitamin D receptor polymorphisms may be involved in the pathogenesis of BPH.",gene_disease,drug_gene
-2240,Shorter EGFR intron 1 CA repeat length is associated with worse pancreatic cancer clinical prognosis and in vitro response to erlotinib.,gene_disease,drug_disease
-2256,Factor V Leiden was found to be an independent genetic risk factor for CAD in Turkish population.,gene_disease,unknown
 2263,"Unlike the findings of a previous study, the results of the current study suggest that the 158V/F polymorphism of FcgammaRIIIA is very unlikely to influence the clinical efficacy of infliximab or etanercept in patients with RA.",gene_disease,drug_disease
-2265,The FCRL3 polymorphisms associated with rheumatoid arthritis in a Japanese population are not associated per se with rheumatoid arthritis in a Spanish population.,gene_disease,drug_disease
-2266,The FCRL3 polymorphisms associated with rheumatoid arthritis in a Japanese population are not associated per se with rheumatoid arthritis in a Spanish population.,gene_disease,drug_disease
-2291,"it does not seem that variants in MnSOD, CAT, or GPX1 have an influence on prostate cancer risk in this cohort of men who were smokers or exposed to asbestos, although it is possible that cumulative defects in protection from oxidative stress may result in increased risk of the disease.",gene_disease,drug_disease
-2307,The HTR2A gene may be involved in the development of depression by influencing the ability of individuals to use environmental support.,gene_disease,unknown
-2311,These findings provide strong evidence of which IFN-gamma CA repeat and IRF-1 GT repeat polymorphisms influence the risk of asthma for children in Taiwan.,gene_disease,drug_disease
-2326,These findings provide strong evidence of which IFN-gamma CA repeat and IRF-1 GT repeat polymorphisms influence the risk of asthma for children in Taiwan.,gene_disease,drug_disease
-2327,Our data do not support an association of common variants in IRS1 with type 2 diabetes in populations of European descent.,gene_disease,unknown
+2265,The FCRL3 polymorphisms associated with rheumatoid arthritis in a Japanese population are not associated per se with rheumatoid arthritis in a Spanish population.,gene_disease,unknown
+2266,The FCRL3 polymorphisms associated with rheumatoid arthritis in a Japanese population are not associated per se with rheumatoid arthritis in a Spanish population.,gene_disease,unknown
+2296,PGRN mutations are not a common cause of ALS phenotypes.,gene_disease,unknown
+2305,This study does not support a clinically relevant association of the HO-1 promoter polymorphism with restenosis and ischaemic events after coronary stenting.,gene_disease,unknown
 2329,"None of the SNPs of KCNQ1 P448R, KCNQ1 R519H, KCNQ1 G643S, KCNE1 G38S and KCNE1 D85N was associated with atrial fibrillation phenotype, but KCNE4 E145D may relation to atrial fibrillation.",gene_disease,unknown
 2330,"None of the SNPs of KCNQ1 P448R, KCNQ1 R519H, KCNQ1 G643S, KCNE1 G38S and KCNE1 D85N was associated with atrial fibrillation phenotype, but KCNE4 E145D may relation to atrial fibrillation.",gene_disease,unknown
 2331,"None of the SNPs of KCNQ1 P448R, KCNQ1 R519H, KCNQ1 G643S, KCNE1 G38S and KCNE1 D85N was associated with atrial fibrillation phenotype, but KCNE4 E145D may relation to atrial fibrillation.",gene_disease,unknown
@@ -351,69 +227,48 @@
 2338,"None of the SNPs of KCNQ1 P448R, KCNQ1 R519H, KCNQ1 G643S, KCNE1 G38S and KCNE1 D85N was associated with atrial fibrillation phenotype, but KCNE4 E145D may relation to atrial fibrillation.",gene_disease,unknown
 2339,"None of the SNPs of KCNQ1 P448R, KCNQ1 R519H, KCNQ1 G643S, KCNE1 G38S and KCNE1 D85N was associated with atrial fibrillation phenotype, but KCNE4 E145D may relation to atrial fibrillation.",gene_disease,unknown
 2340,"None of the SNPs of KCNQ1 P448R, KCNQ1 R519H, KCNQ1 G643S, KCNE1 G38S and KCNE1 D85N was associated with atrial fibrillation phenotype, but KCNE4 E145D may relation to atrial fibrillation.",gene_disease,unknown
-2357,our family-based association study gives mild but further support of the involvement of MAOA variants in bipolar disorder.,gene_disease,drug_disease
-2372,The results suggest that MGST1 polymorphisms may contribute to CRC risk among Han Chinese.,gene_disease,unknown
+2350,Our data on 2257 individuals implies that the LRCH1 intron 1 SNP is not a risk factor for OA aetiology of the knee or of the hip in our UK Caucasian sample.,gene_disease,unknown
+2356,The C allele of the leukotriene C4 synthase gene increases the risk of developing allergic rhinitis.,gene_disease,unknown
+2367,Our findings suggest that the MDM2 SNP309 may be a risk factor for the occurrence and advanced neck lymph node metastasis of NPC in Chinese population.,gene_disease,unknown
 2379,No association between the MMP-1 gene polymorphism and gingival enlargement was revealed in kidney transplant patients who were administered cyclosporin A as a principal immunosuppressive agent.,gene_disease,drug_disease
-2389,"Our results suggest MMP-2 and TIMP-2 genotypes play a crucial role in gastric cancer invasion, but not with development of gastric cancer.",gene_disease,drug_disease
-2390,"Our results suggest MMP-2 and TIMP-2 genotypes play a crucial role in gastric cancer invasion, but not with development of gastric cancer.",gene_disease,drug_disease
-2395,our results showed that the MPO -463 G to A variant may be associated with the decreased risk of gastric cancer in Chinese population.,gene_disease,drug_disease
-2402,The homozygote of MTHFR C677T (TT) may be a risk factor of DVT.,gene_disease,unknown
-2415,"In patients with CHF, the presence of AF was significantly associated with certain ACE and eNOS genotypes.",gene_disease,drug_disease
+2397,"it is unlikely that common variants in MLH1, MLH3, PMS1, MSH2, MSH3 and MSH6 contribute significantly to ovarian cancer susceptibility.",gene_disease,unknown
+2398,"it is unlikely that common variants in MLH1, MLH3, PMS1, MSH2, MSH3 and MSH6 contribute significantly to ovarian cancer susceptibility.",gene_disease,unknown
+2423,Our results do suggest that variants of the ANF gene might be involved in the determination of left ventricular hypertrophy.,gene_disease,unknown
 2433,Our meta-analysis showed a positive association between PADI4 and RA not only in the Japanese population but also in populations of European descent.,gene_disease,unknown
-2445,The association of the F279 loss of function variant with the reduced risk of CVD supports the concept that Lp-PLA(2) plays a proatherogenic and causative role in CVD.,gene_disease,unknown
-2446,The association of the F279 loss of function variant with the reduced risk of CVD supports the concept that Lp-PLA(2) plays a proatherogenic and causative role in CVD.,gene_disease,unknown
-2458,the G191R variant of PRSS2 mitigates intrapancreatic trypsin activity and thereby protects against chronic pancreatitis.,gene_disease,drug_gene
-2459,"The reported genotype in PSMA6 appears not to contribute appreciably to MI, but may contribute slightly to atherosclerosis in the present study population.",gene_disease,unknown
-2464,Our results suggest that the COX-2 Val511Ala SNP does not antagonize the effect of NSAIDs on colon cancer risk and provides support that NSAID use and the COX-2 Val511Ala SNP may contribute to a reduced risk of colon cancer among African Americans.,gene_disease,drug_disease
-2465,Our results suggest that the COX-2 Val511Ala SNP does not antagonize the effect of NSAIDs on colon cancer risk and provides support that NSAID use and the COX-2 Val511Ala SNP may contribute to a reduced risk of colon cancer among African Americans.,gene_disease,drug_disease
-2466,Our results suggest that the COX-2 Val511Ala SNP does not antagonize the effect of NSAIDs on colon cancer risk and provides support that NSAID use and the COX-2 Val511Ala SNP may contribute to a reduced risk of colon cancer among African Americans.,gene_disease,drug_disease
-2467,Our results suggest that the COX-2 Val511Ala SNP does not antagonize the effect of NSAIDs on colon cancer risk and provides support that NSAID use and the COX-2 Val511Ala SNP may contribute to a reduced risk of colon cancer among African Americans.,gene_disease,drug_disease
-2469,"We confirmed the previously reported association of PTPN22 with RF-positive RA, which was independent from the HLA-DRB1 genotype.",gene_disease,unknown
+2434,The PCM1 gene is implicated in susceptibility to schizophrenia and is associated with orbitofrontal gray matter volumetric deficits.,gene_disease,unknown
+2447,"it is unlikely that common variants in MLH1, MLH3, PMS1, MSH2, MSH3 and MSH6 contribute significantly to ovarian cancer susceptibility.",gene_disease,unknown
+2458,the G191R variant of PRSS2 mitigates intrapancreatic trypsin activity and thereby protects against chronic pancreatitis.,gene_disease,unknown
 2470,We found no association between PTPN22 and RA in a Japanese population.,gene_disease,unknown
 2475,C1858T is the sole PTPN22 variant predisposing to RA in our white Dutch sample set.,gene_disease,unknown
+2478,APOE and PVRL2 have little or no effect on the clinical outcome of MS.,gene_disease,unknown
 2479,we have found no evidence for RAB3A conferring susceptibility on mental retardation in the Han Chinese population.,gene_disease,unknown
-2494,These observations suggest that the 4G/5G polymorphism in PAI-1 may explain some of the increased risk and earlier mean age of onset of prostate cancer due to a positive family history.,gene_disease,drug_disease
-2509,These results suggest that SLC25A12 is not a major contributor to autism risk in these families.,gene_disease,unknown
-2515,"These findings provide initial evidence that environmental risks as described by the Rutter Family Adversity Index moderate the impact of the DAT1 gene on ADHD symptoms, suggesting a DAT1 effect only in those individuals exposed to psychosocial adversity.",gene_disease,drug_disease
-2516,"These findings provide initial evidence that environmental risks as described by the Rutter Family Adversity Index moderate the impact of the DAT1 gene on ADHD symptoms, suggesting a DAT1 effect only in those individuals exposed to psychosocial adversity.",gene_disease,drug_disease
-2535,"it does not seem that variants in MnSOD, CAT, or GPX1 have an influence on prostate cancer risk in this cohort of men who were smokers or exposed to asbestos, although it is possible that cumulative defects in protection from oxidative stress may result in increased risk of the disease.",gene_disease,drug_disease
-2547,The TCF7L2 rs7903146 variant is associated with an increased risk of gestational diabetes mellitus in Scandinavian women.,gene_disease,drug_disease
+2482,"there is no main effect of APOE in our autism data set, nor is there any evidence for a joint effect of APOE with RELN.",gene_disease,unknown
+2485,"we could not find evidence of association between RGS4, PRODH, COMT and GRK3 genes and bipolar affective disorder 1 in the Scottish population.",gene_disease,unknown
+2487,Patients with X-linked retinitis pigmentosa due to RPGR mutations lose visual acuity and visual field more rapidly than do patients with dominant retinitis pigmentosa due to RHO mutations.,gene_disease,unknown
+2489,Patients with X-linked retinitis pigmentosa due to RPGR mutations lose visual acuity and visual field more rapidly than do patients with dominant retinitis pigmentosa due to RHO mutations.,gene_disease,unknown
+2492,Large genomic rearrangements in SCN5A are not a common cause of Brugada syndrome.,gene_disease,unknown
+2515,"These findings provide initial evidence that environmental risks as described by the Rutter Family Adversity Index moderate the impact of the DAT1 gene on ADHD symptoms, suggesting a DAT1 effect only in those individuals exposed to psychosocial adversity.",gene_disease,unknown
+2516,"These findings provide initial evidence that environmental risks as described by the Rutter Family Adversity Index moderate the impact of the DAT1 gene on ADHD symptoms, suggesting a DAT1 effect only in those individuals exposed to psychosocial adversity.",gene_disease,unknown
+2522,These findings provide initial support for genotype-specific phenotypes for 5-HTTLPR in autism based on ratings from the Autism Diagnostic Interview-Revised and Autism Diagnostic Observation Schedule.,gene_disease,unknown
+2523,These findings provide initial support for genotype-specific phenotypes for 5-HTTLPR in autism based on ratings from the Autism Diagnostic Interview-Revised and Autism Diagnostic Observation Schedule.,gene_disease,unknown
+2524,These findings provide initial support for genotype-specific phenotypes for 5-HTTLPR in autism based on ratings from the Autism Diagnostic Interview-Revised and Autism Diagnostic Observation Schedule.,gene_disease,unknown
 2549,"These findings suggest that transforming growth factor-beta 1, tumor necrosis factor-alpha, epidermal growth factor receptor, and vitamin D receptor polymorphisms may be involved in the pathogenesis of BPH.",gene_disease,drug_gene
-2566,the Gilbert UGT1A1 allele increases the risk of gallstone formation in CF.,gene_disease,unknown
-2569,"UGT1A7 polymorphisms may have a significant modifying effect on colorectal cancer risk, which may interact with environmental factors, cigarette smoking and alcohol drinking in colorectal carcinogenesis.",gene_disease,drug_disease
-2574,We found an association between a VDR polymorphism (BsmI) and type 1 diabetes.,gene_disease,unknown
-2575,Our preliminary results raise the concern that the CC genotype of the VEGF promoter at -2578 position might be associated with increased risk of renal progression in patients with IgA nephropathy.,gene_disease,drug_disease
-2579,"VEGF 936 C/C genotype or C allele is not related to the development of colorectal cancer, but they can reduce the risk of anastomotic leakage after surgery in colorectal cancer patients.",gene_disease,drug_disease
-2580,"VEGF 936 C/C genotype or C allele is not related to the development of colorectal cancer, but they can reduce the risk of anastomotic leakage after surgery in colorectal cancer patients.",gene_disease,drug_disease
-2599,"Our data suggest that the CFH Tyr402His is not a major risk factor for overall early AMD in this Latino population, but may play a role in susceptibility to phenotypes of early AMD likely to progress to late AMD.",gene_disease,unknown
-2600,"Our data suggest that the CFH Tyr402His is not a major risk factor for overall early AMD in this Latino population, but may play a role in susceptibility to phenotypes of early AMD likely to progress to late AMD.",gene_disease,unknown
-2601,"Our data suggest that the CFH Tyr402His is not a major risk factor for overall early AMD in this Latino population, but may play a role in susceptibility to phenotypes of early AMD likely to progress to late AMD.",gene_disease,unknown
-2602,CHEK2 I157T associates with an increased risk of CRC: the association was observed both among familial and sporadic CRC patients.,gene_disease,drug_disease
-2603,CHEK2 I157T associates with an increased risk of CRC: the association was observed both among familial and sporadic CRC patients.,gene_disease,drug_disease
-2604,A large deletion of exons 9 and 10 of CHEK2 confers an increased risk of prostate cancer in Polish men.,gene_disease,drug_disease
 2608,These preliminary findings are suggestive of an association between FADS2 and ADHD.,gene_disease,unknown
 2612,"According to this study, FGFR4 Arg388 genotype is a marker for breast cancer progression in patients with adjuvant systemic therapy, particularly chemotherapy, and thus may indicate therapy resistance.",gene_disease,drug_disease
-2617,"IRS-1 G972R was associated with the baseline characteristics of the patients with GDM, and might be related to insulin resistance that is seen in obese patients with GDM.",gene_disease,drug_disease
-2618,"IRS-1 G972R was associated with the baseline characteristics of the patients with GDM, and might be related to insulin resistance that is seen in obese patients with GDM.",gene_disease,drug_disease
-2635,"Our results suggest MMP-2 and TIMP-2 genotypes play a crucial role in gastric cancer invasion, but not with development of gastric cancer.",gene_disease,drug_disease
-2636,"Our results suggest MMP-2 and TIMP-2 genotypes play a crucial role in gastric cancer invasion, but not with development of gastric cancer.",gene_disease,drug_disease
-2647,The His645Asp polymorphism of the histamine metabolising enzyme ABP1 is related to severity of ulcerative colitis.,gene_disease,drug_gene
+2627,"we could not find evidence of association between RGS4, PRODH, COMT and GRK3 genes and bipolar affective disorder 1 in the Scottish population.",gene_disease,unknown
+2647,The His645Asp polymorphism of the histamine metabolising enzyme ABP1 is related to severity of ulcerative colitis.,gene_disease,unknown
+2649,"we could not find evidence of association between RGS4, PRODH, COMT and GRK3 genes and bipolar affective disorder 1 in the Scottish population.",gene_disease,unknown
 2657,"The results of the present study, which is much larger than previously published studies, provide no evidence that either CCR5-Delta32 or CCR2-64I is associated with hypertension.",gene_disease,unknown
-2660,These prospective data confirmed an association between the Y402H variant of CFH and a risk of AMD.,gene_disease,unknown
-2661,"In this UK cohort of AMD patients, the CFH Y402H variant was significantly enriched in patients with predominantly classic CNV.",gene_disease,drug_disease
-2667,These findings bring further evidence on the role of DRD4 polymorphisms on the performance in sustained attention tasks among children and adolescents with ADHD diagnosis.,gene_disease,drug_disease
+2667,These findings bring further evidence on the role of DRD4 polymorphisms on the performance in sustained attention tasks among children and adolescents with ADHD diagnosis.,gene_disease,unknown
 2672,"We found evidence for association between GABRA1 and COGA alcohol dependence, history of blackouts, age at first drunkenness, and level of response to alcohol.",gene_disease,unknown
 2682,"this study has found that the IL-9 gene was slightly associated with asthmatics who have positive specific IgE against Der p (or Der f) and house dust, when information on environmental factors was incorporated as effect modifiers.",gene_disease,unknown
+2688,"it is unlikely that common variants in MLH1, MLH3, PMS1, MSH2, MSH3 and MSH6 contribute significantly to ovarian cancer susceptibility.",gene_disease,unknown
+2689,"it is unlikely that common variants in MLH1, MLH3, PMS1, MSH2, MSH3 and MSH6 contribute significantly to ovarian cancer susceptibility.",gene_disease,unknown
+2692,"it is unlikely that common variants in MLH1, MLH3, PMS1, MSH2, MSH3 and MSH6 contribute significantly to ovarian cancer susceptibility.",gene_disease,unknown
+2699,PPP2R1B genes may not play a role in the carcinogenesis of cervical cancer.,gene_disease,unknown
 2700,The present study provides further evidence in support of the KPNB3 association with schizophrenia in Chinese population.,gene_disease,unknown
-2702,"SHBG D356N heterozygotes were found to have an increased risk of prostate cancer among whites (odds ratio, 1.",gene_disease,drug_disease
-2725,the distribution of PTPN22 polymorphism did not reveal any association with RA in Turkey.,gene_disease,unknown
-2733,"we identified MMP1 to be associated with an increased risk for lung cancer, which was modified by smoking.",gene_disease,drug_disease
-2735,Findings based on the current sample size suggest that the MDM2 SNP309 GG genotype may be associated with both the risk of breast cancer and an earlier age of onset in Taiwanese women.,gene_disease,drug_disease
-2742,"The increased fat mass in carriers of the A allele of rs9939609 of FTO is associated not only with increased risk of type 2 diabetes, but also with an increase in atherogenic lipid profile and myocardial infarction in these patients.",gene_disease,drug_disease
-2780,BIK might not play a major role in the susceptibility of schizophrenia in Japanese population.,gene_disease,unknown
-2783,Our results show that cigarette smoking is associated with an increase in breast cancer risk among women with NAT2 slow acetylation genotypes.,gene_disease,drug_disease
-2789,FCER2 predicts the likelihood of treatment protocol success in asthma.,gene_disease,drug_disease
-2791,This study did not show an association between common variants of CREG and CAD in the northern Chinese Han population.,gene_disease,unknown
+2703,These findings provide replication of the association between autism and SLC25A12.,gene_disease,unknown
+2771,Our findings suggest a relevant role of ADAM33 in thepathogenesis of asthma in this population.,gene_disease,unknown
+2789,FCER2 predicts the likelihood of treatment protocol success in asthma.,gene_disease,unknown
 2793,the Trp(64)Arg mutation of ADRB3 has little or no influence on either body weight or body mass index in the general Japanese population.,gene_disease,unknown
-2794,The ACE deletion allele may protect against hypertension in the setting of obstructive sleep apnea.,gene_disease,drug_disease
-2796,Peripheral blood mononuclear cells from asthmatic children with the TT genotype at position -159 of the CD14 gene make more IgE than those with the CC genotype following LPS stimulation because of increased germline transcription and have an augmented Th2 cytokine profile.,gene_disease,drug_gene
+2794,The ACE deletion allele may protect against hypertension in the setting of obstructive sleep apnea.,gene_disease,unknown
