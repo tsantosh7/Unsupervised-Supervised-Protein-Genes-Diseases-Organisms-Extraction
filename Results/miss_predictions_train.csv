@@ -37,8 +37,6 @@
 595,Failure of medical and surgical therapy in CRSwNP is associated with significantly decreased expression of IL-22R1.,gene_disease,drug_disease
 596,Fetuin-A is a calcification inhibitor and correlates negatively with increased vascular stiffness in dialysis patients.,gene_disease,drug_gene
 599,EGFR gene expression in pancreatic adenocarcinoma cells significantly surpassed that in normal pancreatic cells.,gene_disease,drug_gene
-612,ET-1 mRNA expression was significantly higher in patients with CsA-induced gingival overgrowth (P <0.001) than in patients with periodontitis and the controls.,drug_disease,gene_disease
-613,ET-1 mRNA expression was significantly higher in patients with CsA-induced gingival overgrowth (P <0.001) than in patients with periodontitis and the controls.,drug_disease,gene_disease
 614,These results suggest that CsA can modulate the expression of ET-1 in gingival fibroblasts and CsA-induced gingival overgrowth.,drug_disease,drug_gene
 634,"Another important finding was that the cytotoxic effect induced by 25 microM or 50 microM of indomethacin-loaded nanocapsules or indomethacin ethyl ester-loaded nanocapsules, in glioma cells was not observed in the organotypic cultures, indicating selective cytotoxicity of those formulations for tumoral cells.",drug_disease,drug_gene
 641,"Another important finding was that the cytotoxic effect induced by 25 microM or 50 microM of indomethacin-loaded nanocapsules or indomethacin ethyl ester-loaded nanocapsules, in glioma cells was not observed in the organotypic cultures, indicating selective cytotoxicity of those formulations for tumoral cells.",drug_disease,drug_gene
