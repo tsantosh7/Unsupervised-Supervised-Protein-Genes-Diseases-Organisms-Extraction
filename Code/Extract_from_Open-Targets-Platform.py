@@ -1,7 +1,3 @@
-# Parsing BING API
-# Code inspired from Maria Christofi
-# Santosh Tirunagari
-#
 # (c) EMBL-EBI, June 2019
 #
 # Started: 25 June 2019
