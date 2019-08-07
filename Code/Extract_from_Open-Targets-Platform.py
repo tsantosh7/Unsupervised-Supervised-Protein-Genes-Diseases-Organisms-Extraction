@@ -1,7 +1,7 @@
 # (c) EMBL-EBI, June 2019
 #
 # Started: 25 June 2019
-# Updated: 25 June 2019
+# Updated: 5 August  2019
 
 _author_ = 'Santosh Tirunagari'
 
@@ -9,6 +9,20 @@ import os
 import requests
 # from pprint import pprint
 import pandas as pd
+
+import json
+from collections import defaultdict, Counter
+import time
+from requests.compat import urljoin
+
+from lxml import etree
+import re
+from nltk.tokenize.regexp import WordPunctTokenizer
+import pickle
+
+from bs4 import BeautifulSoup
+import lxml
+
 
 page_size = 8
 page_count = 10
@@ -20,6 +34,17 @@ result_folder = '/home/santosh/Work/Unsupervised-Protein-Genes-Diseases-Extracti
 
 colNames = ('pmc_id', 'exact')
 pmcid_exact_dict = {}
+
+
+def extract_all_sentences_through_PMCID(pmcid):
+
+    base_url = "https://www.ebi.ac.uk/europepmc/webservices/rest/"
+    article_url = urljoin(base_url, "{}/fullTextXML".format(pmcid))
+    r = requests.get(article_url)
+    if r.status_code == 200:
+        return True
+    else:
+        return False
 
 
 while cursor_mark-old_cursor_mark != 0:
