@@ -2,12 +2,11 @@
 # (c) EMBL-EBI, June 2019
 #
 # Started: 7 June 2019
-# Updated: 8 August  2019
+# Updated: 9 August  2019
 
 _author_ = 'Santosh Tirunagari'
 
 import os
-# from pprint import pprint
 import pandas as pd
 import glob
 import json
@@ -16,14 +15,10 @@ import multiprocessing
 
 
 colNames = ('pmcid', 'section', 't_start', 't_end', 'd_start', 'd_end', 'text')
-pmcid_exact_dict = {}
-
-
 
 file_path = '/home/stirunag/Work/OTAR dumps/'
 all_files = glob.glob(file_path+'*split*')
 
-# file_path = '/home/stirunag/Work/OTAR dumps/toy_data.txt'
 result_folder = '/home/stirunag/Work/OTAR dumps/'
 
 def process_each_split_to_extract_sentences(complete_file_path):
@@ -40,7 +35,7 @@ def process_each_split_to_extract_sentences(complete_file_path):
                     t_end = each_sentence['t_end']
                     d_start = each_sentence['d_start']
                     d_end = each_sentence['d_end']
-                    sentence = each_sentence['text']
+                    sentence = each_sentence['text'].encode('cp1252').decode('utf-8')
 
                     OTAR_info = [pmc_id, section, t_start, t_end, d_start, d_end, sentence]
                     OTAR_data = pd.DataFrame(columns=colNames)
