@@ -42,3 +42,7 @@
 *.json
 /Datasets/EBI Standard/rel_data.json
 *bronze*
+
+
+*.iml
+*.xml
