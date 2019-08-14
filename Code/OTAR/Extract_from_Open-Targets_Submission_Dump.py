@@ -51,7 +51,7 @@ def process_each_split_to_extract_sentences(complete_file_path):
 
 
 if __name__ == '__main__':
-    pool = multiprocessing.Pool(processes=14)
+    pool = multiprocessing.Pool(processes=15)
     pool.map(process_each_split_to_extract_sentences, all_files)
     pool.close()
     pool.join()
