@@ -17,9 +17,9 @@ nltk.download('stopwords')
 
 
 def clean_my_text(full_text):
-    stopset = set(stopwords.words('english'))  # | set(string.punctuation)
+    # stopset = set(stopwords.words('english'))  # | set(string.punctuation)
     tokens = nltk.word_tokenize(full_text)
-    cleanup = [token for token in tokens if token not in stopset and len(token) > 2]
+    cleanup = [token for token in tokens if len(token) > 2]
     return cleanup
 
 
@@ -48,11 +48,11 @@ sentences = SentenceClass(data_dir_path)  # a memory-friendly iterator
 model = gensim.models.Word2Vec(
     sentences,
     size=200,
-    window=5,
-    min_count=2,
+    window=20,
+    min_count=3,
     workers=8, iter=10)
 
 logging.info("Done training data files")
 
 
-model.wv.save_word2vec_format('/home/stirunag/Dataset/model_OTAR.bin', binary=True)
+model.wv.save_word2vec_format('/home/stirunag/models/model_OTAR_200d-3mc-10it.bin', binary=True)
