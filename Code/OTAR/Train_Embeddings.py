@@ -19,7 +19,7 @@ nltk.download('stopwords')
 def clean_my_text(full_text):
     # stopset = set(stopwords.words('english'))  # | set(string.punctuation)
     tokens = nltk.word_tokenize(full_text)
-    cleanup = [token for token in tokens if len(token) > 2]
+    cleanup = [token for token in tokens if len(token) > 1]
     return cleanup
 
 
