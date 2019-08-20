@@ -2,20 +2,19 @@
 # (c) EMBL-EBI, June 2019
 #
 # Started: 7 June 2019
-# Updated: 9 August  2019
+# Updated: 20 August  2019
 
 _author_ = 'Santosh Tirunagari'
 
 import os
 import pandas as pd
-import glob
-import json
+import re
 
 import multiprocessing
 
 colNames = ('pmcid', 'section', 't_start', 't_end', 'd_start', 'd_end', 'text')
 
-# file_path = '/nfs/gns/literature/Santosh_Tirunagari/OTAR_DUMPS/OTAR_CSV_TEXT'
+file_path = '/nfs/gns/literature/Santosh_Tirunagari/OTAR_DUMPS/OTAR_CSV_TEXT'
 result_folder = '/nfs/gns/literature/Santosh_Tirunagari/Dataset/'
 
 def process_each_split_to_extract_sentences(complete_file_path):
@@ -38,7 +37,7 @@ def process_each_split_to_extract_sentences(complete_file_path):
 
 if __name__ == '__main__':
     pool = multiprocessing.Pool(processes=15)
-    pool.map(process_each_split_to_extract_sentences, all_files)
+    pool.map(process_each_split_to_extract_sentences, file_path)
     pool.close()
     pool.join()
     print('done')
