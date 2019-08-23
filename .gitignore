@@ -6,7 +6,8 @@
 .idea/**/shelf
 .idea/*
 
-
+*.pt
+*.log
 
 # Generated files
 .idea/**/contentModel.xml
