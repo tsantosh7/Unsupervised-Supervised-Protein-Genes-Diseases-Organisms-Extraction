@@ -143,23 +143,23 @@ with open(result_path+'train.csv','w') as f1, open(result_path+'dev.csv','w') as
                         ner = each_annotation['ner']
                         IOB_converted_dict, word_tokens = convert2IOB_dict(text,ner)
                         
-                    if pmc_id in trainPMCids:
-                        for each_word in word_tokens:
-                            row = [each_word,IOB_converted_dict[each_word]]
-                            train_writer.writerow(row)
-                        train_writer.writerow('\n') 
-                        
-                    elif pmc_id in devPMCids:
-                        for each_word in word_tokens:
-                            row = [each_word,IOB_converted_dict[each_word]]
-                            dev_writer.writerow(row)
-                        dev_writer.writerow('\n') 
-                        
-                    elif pmc_id in testPMCids:
-                        for each_word in word_tokens:
-                            row = [each_word,IOB_converted_dict[each_word]]
-                            test_writer.writerow(row)
-                        test_writer.writerow('\n') 
+                        if pmc_id in trainPMCids:
+                            for each_word in word_tokens:
+                                row = [each_word,IOB_converted_dict[each_word]]
+                                train_writer.writerow(row)
+                            train_writer.writerow('\n')
+
+                        elif pmc_id in devPMCids:
+                            for each_word in word_tokens:
+                                row = [each_word,IOB_converted_dict[each_word]]
+                                dev_writer.writerow(row)
+                            dev_writer.writerow('\n')
+
+                        elif pmc_id in testPMCids:
+                            for each_word in word_tokens:
+                                row = [each_word,IOB_converted_dict[each_word]]
+                                test_writer.writerow(row)
+                            test_writer.writerow('\n')
 
 
 # if __name__ == '__main__':
