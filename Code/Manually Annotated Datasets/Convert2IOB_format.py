@@ -34,14 +34,14 @@ import random
 
 colNames = ('text', 'ner')
 
-file_path = '/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/'
+file_path = '/mnt/droplet/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/'
 all_files = glob.glob(file_path+'*fulltext_batch*')
-result_folder = '/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/NER/'
+result_folder = file_path+'NER/'
 
 
 # get all the pmc ids
 
-with open('/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/NER/list_pmc_ids.csv','w') as f1:
+with open(result_folder+'list_pmc_ids.csv','w') as f1:
     writer=csv.writer(f1, delimiter='\t',lineterminator='\n',)
     
     for files in all_files:
@@ -55,7 +55,7 @@ with open('/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/NER/list_
 
 # Generate train, test and dev pmc ids
 
-file = '/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/NER/list_pmc_ids.csv'
+file = result_folder+'list_pmc_ids.csv'
 percentage=0.70
 iter = 0
 
@@ -123,43 +123,44 @@ def convert2IOB_dict(text_data,ner_tags):
     return IOB_dict, split_text
     
 
-# Change the result path to yours
-result_path = '/nfs/gns/literature/Santosh_Tirunagari/EBI standard Dataset/NER/'
+# Change the result folder path to yours
 
-with open(result_path+'train.csv','w') as f1, open(result_path+'dev.csv','w') as f2, open(result_path+'test.csv','w') as f3:  
-    train_writer=csv.writer(f1, delimiter='\t',lineterminator='\n')
-    dev_writer=csv.writer(f2, delimiter='\t',lineterminator='\n')
-    test_writer=csv.writer(f3, delimiter='\t',lineterminator='\n')
-    
+with open(result_folder + 'train.csv', 'w', newline='\n') as f1, \
+        open(result_folder + 'dev.csv', 'w', newline='\n') as f2, \
+        open(result_folder + 'test.csv', 'w', newline='\n') as f3:
+    train_writer = csv.writer(f1, delimiter='\t', lineterminator='\n')
+    dev_writer = csv.writer(f2, delimiter='\t', lineterminator='\n')
+    test_writer = csv.writer(f3, delimiter='\t', lineterminator='\n')
+
     for each_manually_annotated_json in all_files:
         with open(each_manually_annotated_json) as json_file_ner_rel:
             json_data = json.loads(json_file_ner_rel.read())
 
             for articles in json_data:
-                pmc_id = articles #json_data[articles]
+                pmc_id = articles  # json_data[articles]
                 for each_annotation in json_data[articles]['annotations']:
                     if each_annotation['ner'] != None:
                         text = each_annotation['sent'].encode('utf-8').decode('utf-8')
                         ner = each_annotation['ner']
-                        IOB_converted_dict, word_tokens = convert2IOB_dict(text,ner)
-                        
+                        IOB_converted_dict, word_tokens = convert2IOB_dict(text, ner)
+
                         if pmc_id in trainPMCids:
                             for each_word in word_tokens:
-                                row = [each_word,IOB_converted_dict[each_word]]
+                                row = [each_word, IOB_converted_dict[each_word]]
                                 train_writer.writerow(row)
-                            train_writer.writerow('\n')
+                            train_writer.writerow('')
 
                         elif pmc_id in devPMCids:
                             for each_word in word_tokens:
-                                row = [each_word,IOB_converted_dict[each_word]]
+                                row = [each_word, IOB_converted_dict[each_word]]
                                 dev_writer.writerow(row)
-                            dev_writer.writerow('\n')
+                            dev_writer.writerow('')
 
                         elif pmc_id in testPMCids:
                             for each_word in word_tokens:
-                                row = [each_word,IOB_converted_dict[each_word]]
+                                row = [each_word, IOB_converted_dict[each_word]]
                                 test_writer.writerow(row)
-                            test_writer.writerow('\n')
+                            test_writer.writerow('')
 
 
 # if __name__ == '__main__':
