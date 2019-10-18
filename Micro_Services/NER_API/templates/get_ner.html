@@ -15,6 +15,7 @@ input[type=text], select, textarea {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
+    
 }
 
 input[type=submit] {
@@ -39,20 +40,17 @@ input[type=submit]:hover {
 </head>
 <body>
 
-<h3>PCSE NER tagging</h3>
+<h3>FLAIR NER tagging</h3>
 
 <div class="container">
 
-  <form action="http://localhost:5001/pcse_ner_predictor" method="get">
-    <label for="text_sentence">Sentence</label><br>
-    <input type="text" id="text_sentence" name="text_sentence" placeholder="Input your sentence here">
-	<br>
-	<br>
-
-	<br>
+  <form action="http://10.7.75.46:5201/pcse_ner_predictor" method="get">
+    <label for="text_sentence">Abstract</label><br>
+    <textarea id="text_sentence" name="text_sentence" placeholder="EPMC Abstract/Full Text" style="height:200px"></textarea>
 	<br>
 
     <input type="submit" value="Find Entities">
+    <input type="submit" value = "Highlighter" formaction="http://10.7.75.46:5201/pcse_ner_highlighter" method="get">
   </form>
 
 

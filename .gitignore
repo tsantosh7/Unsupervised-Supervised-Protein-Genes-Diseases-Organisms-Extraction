@@ -44,6 +44,7 @@
 /Datasets/EBI Standard/rel_data.json
 *bronze*
 
+Micro_Services/NER_API/*.txt
 
 *.iml
 *.xml
