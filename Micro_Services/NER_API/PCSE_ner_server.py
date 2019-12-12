@@ -11,7 +11,8 @@ from datetime import time
 # from flask_cors import CORS
 
 from flask import Flask, jsonify, request
-from nltk.tokenize import wordpunct_tokenize
+from nltk.tokenize import wordpunct_tokenize, WordPunctTokenizer
+from typing import List
 
 from flair.data import Sentence, Token
 from flair.models import SequenceTagger
@@ -20,7 +21,7 @@ import re
 app = Flask(__name__)
 
 # sequence_model = SequenceTagger.load('/mnt/droplet/nfs/gns/literature/Santosh_Tirunagari/GitHub/flair_models/ner/multi_bio_ner_model/EBI/best-model.pt')
-flair_model = flair_model = SequenceTagger.load('/nfs/gns/literature/Santosh_Tirunagari/GitHub/flair_models/ner/multi_bio_ner_model/EBI/best-model.pt')
+flair_model = SequenceTagger.load('/nfs/gns/literature/Santosh_Tirunagari/GitHub/flair_models/ner/manual_annotated_dataset/best-model.pt')
 
 
 
@@ -60,6 +61,31 @@ def term_highlighter(text: str = None, terms: list = None) -> str:
             text = re.sub(r"\b%s\b" % new_term_str , '<span class=\'OG\'>' + new_term_str + '</span>', text)
 
     return text
+
+
+
+
+
+def custom_tokenizer(text: str) -> List[Token]:
+    """
+    Tokenizer based on space character only.
+    """
+    tokens: List[Token] = []
+
+    tokenizer = WordPunctTokenizer()
+
+    text = tokenizer.tokenize(text)
+
+    index = 0
+    for index, word in enumerate(text):
+        tokens.append(
+            Token(
+                text=word, start_position=index, whitespace_after=False
+            )
+        )
+
+    return tokens
+
 
 
 # app config and init
@@ -136,6 +162,54 @@ def pcse_ner_predictor():
         return data_dict
 
 
+@app.route("/pcse_ner_multi_batch_predictor", methods=['POST'])
+def pcse_ner_multi_batch_predictor():
+
+    data_dict ={}
+    text_sentence = request.form.get('text_sentence')
+
+    if not text_sentence:
+        return jsonify({
+            'error': 'No parameters supplied',
+            "status": 400,
+            "service": 'pcse_ner_multi_batch_predictor'
+        })
+
+    sentences = []
+    for each_sentence in text_sentence:
+        sentences.append(Sentence(each_sentence, use_tokenizer=custom_tokenizer))
+    # print(sentence)
+    # print(text_sentence)
+    flair_model.predict(sentence)
+
+    # print(sentence.to_dict(tag_type='ner'))
+
+    try:
+        data_dict['tagged'] = sentence.to_dict(tag_type='ner')
+
+        text_input = data_dict['tagged']['text']
+
+        terms_entities = []
+        for each_entity in data_dict['tagged']['entities']:
+            terms_entities.append(
+                [each_entity['start_pos'], each_entity['end_pos'], each_entity['type'], each_entity['text']])
+
+        # print(text_input)
+        # print(terms_entities)
+        data_dict['highlighted_text'] = term_highlighter(text_input,terms_entities)
+
+        data_dict['status'] = 200
+    except:
+        data_dict['status'] = 400
+
+    if data_dict['status'] != 200:
+        data_dict['status'] = 400
+        return data_dict
+    else:
+        return data_dict
+
+
+
 @app.route("/pcse_ner_highlighter", methods=['GET'])
 def pcse_ner_highlighter():
 
@@ -179,6 +253,9 @@ def pcse_ner_highlighter():
         return data_dict
     else:
         return render_template('pcse_ner_output.html', text_highlighted= Markup(data_dict['highlighted_text']))
+
+
+
 
 
 # Runs the flask server on the specified port (5200)
