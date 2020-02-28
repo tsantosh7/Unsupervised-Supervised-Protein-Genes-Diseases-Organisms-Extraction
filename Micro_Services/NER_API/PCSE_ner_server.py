@@ -18,6 +18,8 @@ from flair.data import Sentence, Token
 from flair.models import SequenceTagger
 import re
 
+from ast import literal_eval
+
 app = Flask(__name__)
 
 # sequence_model = SequenceTagger.load('/mnt/droplet/nfs/gns/literature/Santosh_Tirunagari/GitHub/flair_models/ner/multi_bio_ner_model/EBI/best-model.pt')
@@ -166,7 +168,8 @@ def pcse_ner_predictor():
 def pcse_ner_multi_batch_predictor():
 
     data_dict ={}
-    text_sentence = request.form.get('text_sentence')
+    text_sentence = literal_eval(request.form['text_sentence'])
+    # print(text_sentence)
 
     if not text_sentence:
         return jsonify({
@@ -178,29 +181,31 @@ def pcse_ner_multi_batch_predictor():
     sentences = []
     for each_sentence in text_sentence:
         sentences.append(Sentence(each_sentence, use_tokenizer=custom_tokenizer))
-    # print(sentence)
-    # print(text_sentence)
-    flair_model.predict(sentence)
+    predicted_sentences = flair_model.predict(sentences,mini_batch_size=16)
 
     # print(sentence.to_dict(tag_type='ner'))
 
-    try:
-        data_dict['tagged'] = sentence.to_dict(tag_type='ner')
+    list_names = ['exact', 'entity']
+    all_entities = []
+    # print(predicted_sentences)
+    for i in range(0, len(sentences)):
+        entities = predicted_sentences[i].to_dict(tag_type='ner')['entities']
+        if entities:
+            tagged_sents = predicted_sentences[i].to_dict(tag_type='ner')
+            for root_node in tagged_sents['entities']:
+                exact = root_node['text']
+                entity = root_node['type']
+                data_names = [exact, entity]
+                all_entities.append(dict(zip(list_names, data_names)))
+        else:
+            all_entities.append(entities)
 
-        text_input = data_dict['tagged']['text']
+    print(all_entities)
 
-        terms_entities = []
-        for each_entity in data_dict['tagged']['entities']:
-            terms_entities.append(
-                [each_entity['start_pos'], each_entity['end_pos'], each_entity['type'], each_entity['text']])
 
-        # print(text_input)
-        # print(terms_entities)
-        data_dict['highlighted_text'] = term_highlighter(text_input,terms_entities)
+    data_dict['tagged'] = all_entities
+    data_dict['status'] = 200
 
-        data_dict['status'] = 200
-    except:
-        data_dict['status'] = 400
 
     if data_dict['status'] != 200:
         data_dict['status'] = 400

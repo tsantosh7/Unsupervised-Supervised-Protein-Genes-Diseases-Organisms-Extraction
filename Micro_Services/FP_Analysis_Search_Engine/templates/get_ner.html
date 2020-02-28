@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+    width: 70%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 15px;
+    width: 30%;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 10px;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+    width: 60%;
+}
+
+/* Container for flexboxes */
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+/* Style the navigation menu */
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* Style the content */
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+/* Style the footer */
+footer {
+  background-color: #fff;
+  padding: 10px;
+  text-align: center;
+  color: darkblue;
+    width: 60%;
+}
+
+/* Responsive layout - makes the menu and the content (inside the section) sit on top of each other instead of next to each other */
+@media (max-width: 600px) {
+  section {
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+}
+</style>
+</head>
+<body>
+
+<h3>PCSE Flase Positive Analysis</h3>
+<!-- epmc_ner_entity=FACS&maxdocs=5&page=100 -->
+
+
+<header>
+  <h2>EPMC</h2>
+</header>
+<section>
+<div class="container">
+
+  <form action="get_gp_annotation_data" method="get">
+    <label for="text_sentence">GP Entity Name</label><br>
+    <input type="text" id="epmc_GP_entity" name="epmc_GP_entity" placeholder="Gene/Protein" style="height:20px">
+	<br>
+
+    <input type="submit" value="Find EPMC GP">
+      <input type="submit" value = "EPMC GP Summary" formaction="get_all_epmc_gp_frequencies" method="get">
+  </form>
+
+
+</div>
+
+<div class="container">
+
+  <form action="get_ds_annotation_data" method="get">
+    <label for="text_sentence">DS Entity Name</label><br>
+    <input type="text" id="epmc_DS_entity" name="epmc_DS_entity" placeholder="Disease" style="height:20px">
+	<br>
+
+    <input type="submit" value="Find EPMC DS">
+    <input type="submit" value = "EPMC DS Summary" formaction="get_all_epmc_ds_frequencies" method="get">
+  </form>
+
+
+</div>
+
+</section>
+<header>
+  <h2>OTAR</h2>
+</header>
+<section>
+<div class="container">
+
+  <form action="get_otar_gp_annotation_data" method="get">
+    <label for="text_sentence">OTAR GP Name</label><br>
+    <input type="text" id="otar_GP_entity" name="otar_GP_entity" placeholder="Gene/Protein" style="height:20px">
+	<br>
+
+    <input type="submit" value="Find OTAR GP">
+    <input type="submit" value = "OTAR GP Summary" formaction="get_all_otar_gp_frequencies" method="get">
+  </form>
+
+
+</div>
+
+
+
+<div class="container">
+
+  <form action="get_otar_ds_annotation_data" method="get">
+    <label for="text_sentence">OTAR DS Name</label><br>
+    <input type="text" id="otar_DS_entity" name="otar_DS_entity" placeholder="Disease" style="height:20px">
+	<br>
+
+    <input type="submit" value="Find OTAR DS">
+    <input type="submit" value = "OTAR DS Summary" formaction="get_all_otar_ds_frequencies" method="get">
+  </form>
+
+
+</div>
+
+</section>
+
+
+
+
+<footer>
+  <p>For further analysis, please use <a href="http://ai-capo-api-lb/spaCy_ner">SpaCy NER API</a></p>
+
+</footer>
+
+</body>
+</html>
+

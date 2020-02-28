@@ -1,0 +1,295 @@
+[2020-02-25 12:40:13 +0000] [125165] [DEBUG] Current configuration:
+  config: None
+  bind: [':5200']
+  backlog: 2048
+  workers: 2
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /nfs/gns/literature/Santosh_Tirunagari/GitHub/Unsupervised-Protein-Genes-Diseases-Extraction/Micro_Services/FP_Analysis_Search_Engine
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 8623
+  group: 1057
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: access.txt
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: log.txt
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: FP_analysis_server:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x2b2807f93730>
+  on_reload: <function OnReload.on_reload at 0x2b2807f93840>
+  when_ready: <function WhenReady.when_ready at 0x2b2807f93950>
+  pre_fork: <function Prefork.pre_fork at 0x2b2807f93a60>
+  post_fork: <function Postfork.post_fork at 0x2b2807f93b70>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x2b2807f93c80>
+  worker_int: <function WorkerInt.worker_int at 0x2b2807f93d90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x2b2807f93ea0>
+  pre_exec: <function PreExec.pre_exec at 0x2b280805e048>
+  pre_request: <function PreRequest.pre_request at 0x2b280805e158>
+  post_request: <function PostRequest.post_request at 0x2b280805e1e0>
+  child_exit: <function ChildExit.child_exit at 0x2b280805e2f0>
+  worker_exit: <function WorkerExit.worker_exit at 0x2b280805e400>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x2b280805e510>
+  on_exit: <function OnExit.on_exit at 0x2b280805e620>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2020-02-25 12:40:13 +0000] [125165] [INFO] Starting gunicorn 20.0.4
+[2020-02-25 12:40:13 +0000] [125165] [DEBUG] Arbiter booted
+[2020-02-25 12:40:13 +0000] [125165] [INFO] Listening at: http://0.0.0.0:5200 (125165)
+[2020-02-25 12:40:13 +0000] [125165] [INFO] Using worker: sync
+[2020-02-25 12:40:13 +0000] [125174] [INFO] Booting worker with pid: 125174
+[2020-02-25 12:40:13 +0000] [125176] [INFO] Booting worker with pid: 125176
+[2020-02-25 12:40:13 +0000] [125165] [DEBUG] 2 workers
+[2020-02-25 12:40:29 +0000] [125174] [DEBUG] GET /
+[2020-02-25 12:40:29 +0000] [125176] [DEBUG] GET /favicon.ico
+[2020-02-25 12:43:29 +0000] [125176] [DEBUG] GET /
+[2020-02-25 12:43:46 +0000] [125174] [DEBUG] Closing connection. 
+[2020-02-25 14:34:56 +0000] [125174] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 14:35:11 +0000] [125176] [DEBUG] Closing connection. 
+[2020-02-25 14:35:41 +0000] [125165] [CRITICAL] WORKER TIMEOUT (pid:125174)
+[2020-02-25 14:35:41 +0000] [125165] [CRITICAL] WORKER TIMEOUT (pid:125176)
+[2020-02-25 14:35:41 +0000] [125174] [INFO] Worker exiting (pid: 125174)
+[2020-02-25 14:35:41 +0000] [125176] [INFO] Worker exiting (pid: 125176)
+[2020-02-25 14:35:41 +0000] [33439] [INFO] Booting worker with pid: 33439
+[2020-02-25 14:35:41 +0000] [125165] [DEBUG] 1 workers
+[2020-02-25 14:35:41 +0000] [33440] [INFO] Booting worker with pid: 33440
+[2020-02-25 14:35:41 +0000] [125165] [DEBUG] 2 workers
+[2020-02-25 14:37:17 +0000] [41851] [INFO] Booting worker with pid: 41851
+[2020-02-25 14:37:30 +0000] [33439] [INFO] Parent changed, shutting down: <Worker 33439>
+[2020-02-25 14:37:30 +0000] [33439] [INFO] Worker exiting (pid: 33439)
+[2020-02-25 14:37:35 +0000] [41851] [INFO] Parent changed, shutting down: <Worker 41851>
+[2020-02-25 14:37:35 +0000] [41851] [INFO] Worker exiting (pid: 41851)
+[2020-02-25 14:37:59 +0000] [45428] [DEBUG] Current configuration:
+  config: None
+  bind: [':5200']
+  backlog: 2048
+  workers: 2
+  worker_class: sync
+  threads: 1
+  worker_connections: 1000
+  max_requests: 0
+  max_requests_jitter: 0
+  timeout: 30
+  graceful_timeout: 30
+  keepalive: 2
+  limit_request_line: 4094
+  limit_request_fields: 100
+  limit_request_field_size: 8190
+  reload: False
+  reload_engine: auto
+  reload_extra_files: []
+  spew: False
+  check_config: False
+  preload_app: False
+  sendfile: None
+  reuse_port: False
+  chdir: /nfs/gns/literature/Santosh_Tirunagari/GitHub/Unsupervised-Protein-Genes-Diseases-Extraction/Micro_Services/FP_Analysis_Search_Engine
+  daemon: False
+  raw_env: []
+  pidfile: None
+  worker_tmp_dir: None
+  user: 8623
+  group: 1057
+  umask: 0
+  initgroups: False
+  tmp_upload_dir: None
+  secure_scheme_headers: {'X-FORWARDED-PROTOCOL': 'ssl', 'X-FORWARDED-PROTO': 'https', 'X-FORWARDED-SSL': 'on'}
+  forwarded_allow_ips: ['127.0.0.1']
+  accesslog: access.txt
+  disable_redirect_access_to_syslog: False
+  access_log_format: %(h)s %(l)s %(u)s %(t)s "%(r)s" %(s)s %(b)s "%(f)s" "%(a)s"
+  errorlog: log.txt
+  loglevel: debug
+  capture_output: False
+  logger_class: gunicorn.glogging.Logger
+  logconfig: None
+  logconfig_dict: {}
+  syslog_addr: udp://localhost:514
+  syslog: False
+  syslog_prefix: None
+  syslog_facility: user
+  enable_stdio_inheritance: False
+  statsd_host: None
+  dogstatsd_tags: 
+  statsd_prefix: 
+  proc_name: None
+  default_proc_name: FP_analysis_server:app
+  pythonpath: None
+  paste: None
+  on_starting: <function OnStarting.on_starting at 0x2b38fd6c9730>
+  on_reload: <function OnReload.on_reload at 0x2b38fd6c9840>
+  when_ready: <function WhenReady.when_ready at 0x2b38fd6c9950>
+  pre_fork: <function Prefork.pre_fork at 0x2b38fd6c9a60>
+  post_fork: <function Postfork.post_fork at 0x2b38fd6c9b70>
+  post_worker_init: <function PostWorkerInit.post_worker_init at 0x2b38fd6c9c80>
+  worker_int: <function WorkerInt.worker_int at 0x2b38fd6c9d90>
+  worker_abort: <function WorkerAbort.worker_abort at 0x2b38fd6c9ea0>
+  pre_exec: <function PreExec.pre_exec at 0x2b38fd794048>
+  pre_request: <function PreRequest.pre_request at 0x2b38fd794158>
+  post_request: <function PostRequest.post_request at 0x2b38fd7941e0>
+  child_exit: <function ChildExit.child_exit at 0x2b38fd7942f0>
+  worker_exit: <function WorkerExit.worker_exit at 0x2b38fd794400>
+  nworkers_changed: <function NumWorkersChanged.nworkers_changed at 0x2b38fd794510>
+  on_exit: <function OnExit.on_exit at 0x2b38fd794620>
+  proxy_protocol: False
+  proxy_allow_ips: ['127.0.0.1']
+  keyfile: None
+  certfile: None
+  ssl_version: 2
+  cert_reqs: 0
+  ca_certs: None
+  suppress_ragged_eofs: True
+  do_handshake_on_connect: False
+  ciphers: None
+  raw_paste_global_conf: []
+  strip_header_spaces: False
+[2020-02-25 14:37:59 +0000] [45428] [INFO] Starting gunicorn 20.0.4
+[2020-02-25 14:37:59 +0000] [45428] [DEBUG] Arbiter booted
+[2020-02-25 14:37:59 +0000] [45428] [INFO] Listening at: http://0.0.0.0:5200 (45428)
+[2020-02-25 14:37:59 +0000] [45428] [INFO] Using worker: sync
+[2020-02-25 14:37:59 +0000] [45510] [INFO] Booting worker with pid: 45510
+[2020-02-25 14:37:59 +0000] [45522] [INFO] Booting worker with pid: 45522
+[2020-02-25 14:37:59 +0000] [45428] [DEBUG] 2 workers
+[2020-02-25 14:38:04 +0000] [45522] [DEBUG] GET /
+[2020-02-25 14:38:09 +0000] [45510] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 14:38:15 +0000] [45522] [DEBUG] GET /get_all_otar_gp_frequencies
+[2020-02-25 14:38:31 +0000] [45510] [DEBUG] Closing connection. 
+[2020-02-25 14:38:31 +0000] [45522] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 14:38:47 +0000] [45510] [DEBUG] Closing connection. 
+[2020-02-25 14:38:48 +0000] [45522] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 14:39:18 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:45510)
+[2020-02-25 14:39:18 +0000] [45510] [INFO] Worker exiting (pid: 45510)
+[2020-02-25 14:39:18 +0000] [47438] [INFO] Booting worker with pid: 47438
+[2020-02-25 14:41:05 +0000] [47438] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 14:41:35 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:45522)
+[2020-02-25 14:41:35 +0000] [45522] [INFO] Worker exiting (pid: 45522)
+[2020-02-25 14:41:35 +0000] [48110] [INFO] Booting worker with pid: 48110
+[2020-02-25 14:42:09 +0000] [47438] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 14:42:14 +0000] [48110] [DEBUG] Closing connection. 
+[2020-02-25 14:42:19 +0000] [47438] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 14:42:28 +0000] [48110] [DEBUG] Closing connection. 
+[2020-02-25 14:42:28 +0000] [47438] [DEBUG] GET /get_ds_annotation_data
+[2020-02-25 14:42:48 +0000] [48110] [DEBUG] Closing connection. 
+[2020-02-25 14:56:26 +0000] [48110] [DEBUG] Closing connection. 
+[2020-02-25 16:51:22 +0000] [47438] [DEBUG] GET /get_all_otar_ds_frequencies
+[2020-02-25 16:51:48 +0000] [48110] [DEBUG] Closing connection. 
+[2020-02-25 16:51:48 +0000] [47438] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 16:52:19 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:48110)
+[2020-02-25 16:52:19 +0000] [48110] [INFO] Worker exiting (pid: 48110)
+[2020-02-25 16:52:19 +0000] [132573] [INFO] Booting worker with pid: 132573
+[2020-02-25 16:52:31 +0000] [132573] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 16:53:01 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:47438)
+[2020-02-25 16:53:01 +0000] [47438] [INFO] Worker exiting (pid: 47438)
+[2020-02-25 16:53:01 +0000] [132721] [INFO] Booting worker with pid: 132721
+[2020-02-25 17:03:57 +0000] [132721] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 17:04:27 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:132573)
+[2020-02-25 17:04:27 +0000] [132573] [INFO] Worker exiting (pid: 132573)
+[2020-02-25 17:04:27 +0000] [147301] [INFO] Booting worker with pid: 147301
+[2020-02-25 17:04:57 +0000] [132721] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 17:05:12 +0000] [147301] [DEBUG] Closing connection. 
+[2020-02-25 17:05:12 +0000] [132721] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 17:05:42 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:147301)
+[2020-02-25 17:05:42 +0000] [147301] [INFO] Worker exiting (pid: 147301)
+[2020-02-25 17:05:42 +0000] [147949] [INFO] Booting worker with pid: 147949
+[2020-02-25 17:06:44 +0000] [147949] [DEBUG] GET /get_otar_ds_annotation_data
+[2020-02-25 17:07:04 +0000] [132721] [DEBUG] Closing connection. 
+[2020-02-25 17:07:05 +0000] [132721] [DEBUG] GET /get_all_otar_gp_frequencies
+[2020-02-25 17:07:08 +0000] [147949] [DEBUG] GET /get_all_otar_gp_frequencies
+[2020-02-25 17:07:26 +0000] [132721] [DEBUG] Closing connection. 
+[2020-02-25 17:07:26 +0000] [147949] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 17:07:38 +0000] [132721] [DEBUG] Closing connection. 
+[2020-02-25 17:09:02 +0000] [147949] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-25 17:09:33 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:132721)
+[2020-02-25 17:09:33 +0000] [132721] [INFO] Worker exiting (pid: 132721)
+[2020-02-25 17:09:33 +0000] [149013] [INFO] Booting worker with pid: 149013
+[2020-02-25 17:09:39 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:147949)
+[2020-02-25 17:09:39 +0000] [147949] [INFO] Worker exiting (pid: 147949)
+[2020-02-25 17:09:39 +0000] [149051] [INFO] Booting worker with pid: 149051
+[2020-02-26 09:53:21 +0000] [149013] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-26 09:53:51 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:149051)
+[2020-02-26 09:53:51 +0000] [149051] [INFO] Worker exiting (pid: 149051)
+[2020-02-26 09:53:51 +0000] [1340] [INFO] Booting worker with pid: 1340
+[2020-02-26 10:20:34 +0000] [149013] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-26 10:21:05 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:1340)
+[2020-02-26 10:21:05 +0000] [1340] [INFO] Worker exiting (pid: 1340)
+[2020-02-26 10:21:05 +0000] [30724] [INFO] Booting worker with pid: 30724
+[2020-02-26 11:32:16 +0000] [149013] [DEBUG] GET /
+[2020-02-26 11:32:18 +0000] [30724] [DEBUG] GET /favicon.ico
+[2020-02-26 11:32:28 +0000] [30724] [DEBUG] GET /get_all_epmc_gp_frequencies
+[2020-02-26 11:32:37 +0000] [149013] [DEBUG] GET /get_gp_annotation_data
+[2020-02-26 11:33:08 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:30724)
+[2020-02-26 11:33:08 +0000] [30724] [INFO] Worker exiting (pid: 30724)
+[2020-02-26 11:33:08 +0000] [67767] [INFO] Booting worker with pid: 67767
+[2020-02-26 11:33:59 +0000] [149013] [DEBUG] Closing connection. 
+[2020-02-26 11:33:59 +0000] [67767] [DEBUG] Closing connection. 
+[2020-02-26 11:33:59 +0000] [149013] [DEBUG] GET /get_gp_annotation_data
+[2020-02-26 11:34:10 +0000] [67767] [DEBUG] Closing connection. 
+[2020-02-26 11:34:45 +0000] [67767] [DEBUG] Closing connection. 
+[2020-02-26 11:34:45 +0000] [149013] [DEBUG] Closing connection. 
+[2020-02-26 16:15:42 +0000] [67767] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-26 16:15:43 +0000] [149013] [DEBUG] GET /favicon.ico
+[2020-02-27 09:37:29 +0000] [149013] [DEBUG] GET /
+[2020-02-27 09:37:40 +0000] [67767] [DEBUG] Closing connection. 
+[2020-02-27 09:40:09 +0000] [149013] [DEBUG] GET /
+[2020-02-27 09:40:24 +0000] [149013] [DEBUG] GET /favicon.ico
+[2020-02-27 09:41:07 +0000] [149013] [DEBUG] GET /get_gp_annotation_data
+[2020-02-27 10:01:54 +0000] [67767] [DEBUG] GET /
+[2020-02-27 10:09:16 +0000] [67767] [DEBUG] GET /
+[2020-02-27 10:09:39 +0000] [67767] [DEBUG] GET /get_ds_annotation_data
+[2020-02-28 11:24:07 +0000] [149013] [DEBUG] GET /
+[2020-02-28 11:24:07 +0000] [67767] [DEBUG] GET /favicon.ico
+[2020-02-28 11:57:59 +0000] [67767] [DEBUG] GET /get_all_otar_gp_frequencies
+[2020-02-28 11:58:10 +0000] [149013] [DEBUG] Closing connection. 
+[2020-02-28 11:58:10 +0000] [149013] [DEBUG] GET /get_otar_gp_annotation_data
+[2020-02-28 11:58:40 +0000] [45428] [CRITICAL] WORKER TIMEOUT (pid:67767)
+[2020-02-28 11:58:40 +0000] [67767] [INFO] Worker exiting (pid: 67767)
+[2020-02-28 11:58:41 +0000] [103132] [INFO] Booting worker with pid: 103132

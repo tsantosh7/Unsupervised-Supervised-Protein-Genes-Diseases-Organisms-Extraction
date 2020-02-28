@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+
+.GP {
+background-color: #ffa500;
+}
+
+
+.DS {
+background: #a8d1ff;
+}
+
+
+.OG {
+background: #ffff00;
+}
+
+
+
+.container {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 20px;
+}
+</style>
+</head>
+<body>
+
+<h3>ML NER tagging</h3>
+
+<div class="container">
+
+{{ text_highlighted | safe }}
+ 
+
+</div>
+
+<form action="#">
+Gene/Protein <input type="color" name="gene" value="#ffa500"><br>
+Disease <input type="color" name="disease" value="#a8d1ff"><br>
+Organism <input type="color" name="organism" value="#ffff00"><br>
+</form>
+
+</body>
+</html>
+
