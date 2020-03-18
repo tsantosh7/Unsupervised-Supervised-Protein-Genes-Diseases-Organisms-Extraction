@@ -132,7 +132,7 @@ def pcse_ner_predictor():
             "service": 'pcse_ner_predictor'
         })
 
-    sentence = Sentence(' '.join(wordpunct_tokenize(text_sentence)))
+    sentence = Sentence(text_sentence,  use_tokenizer=custom_tokenizer)
     # print(sentence)
     # print(text_sentence)
     flair_model.predict(sentence)
@@ -265,4 +265,4 @@ def pcse_ner_highlighter():
 
 # Runs the flask server on the specified port (5200)
 if __name__ == "__main__":
-    app.run(host='0.0.0.0', port=5201, debug=True)
+    app.run(host='0.0.0.0', port=5200, debug=True)

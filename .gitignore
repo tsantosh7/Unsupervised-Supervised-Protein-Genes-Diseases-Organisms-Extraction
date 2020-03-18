@@ -6,6 +6,9 @@
 .idea/**/shelf
 .idea/*
 
+log*.txt
+access*.txt
+
 Results
 
 *.pyc
@@ -49,6 +52,7 @@ Results
 /Datasets/EBI Standard/rel_data.json
 *bronze*
 
+Micro_Services/FP_Analysis_Search_Engine/*.txt
 Micro_Services/NER_API/*.txt
 
 *.iml

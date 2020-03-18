@@ -1,0 +1,7 @@
+results/*
+.idea/*
+*.xml
+*.pyc
+*.iml
+
+__pycache__/
