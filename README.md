@@ -78,8 +78,6 @@ But sometimes it can be
 conda install -c conda-forge some-package
 Here the command -c conda-forge are specifying the channel from which we are getting the package. The default channel is -c anaconda, which we don’t have to specify if we are using the default channel.
 
-
-
 ## Install Gensim and Spacy
 conda install -c conda-forge gensim
 conda install -c conda-forge spacy
@@ -92,4 +90,9 @@ Download NLTK stopwords
 import nltk
 nltk.download('stopwords')
 
+## License
+
+This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+
+![CC BY 4.0 Icon](https://licensebuttons.net/l/by/4.0/88x31.png)
 
