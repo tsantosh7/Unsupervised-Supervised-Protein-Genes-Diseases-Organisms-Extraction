@@ -62,7 +62,7 @@ You will see results similar to like this
 
 ubuntu ~ $ conda info --envs
 ## conda environments:
-#
+
 DAND                     /Users/ubuntu/anaconda/envs/DAND dlnd /Users/ubuntu/anaconda/envs/dlnd deep-learning /Users/ubuntu/anaconda/envs/deep-learning 
 Install Necessary Libraries
 If you want to install libraries into an environment, or you want to use that environment, you have to activate the environment first by
@@ -91,6 +91,6 @@ import nltk
 nltk.download('stopwords')
 
 ## License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/license/mit/) file for details.
 
 
