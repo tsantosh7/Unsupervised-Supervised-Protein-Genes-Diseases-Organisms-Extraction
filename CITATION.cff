@@ -1,12 +1,12 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite it as below."
-title: "Your Software Title"
+message: "If you use this code, please cite it as below."
+title: "Unsupervised and Supervised Entity Extraction"
 version: 1.0.0
-date-released: 2023-01-01
+date-released: 2019-06-01
 
 authors:
-  - family-names: Familyname
-    given-names: Givenname
-    orcid: https://orcid.org/0000-0002-1825-0097
+  - family-names: Tirunagari
+    given-names: Santosh
+    orcid: https://orcid.org/0000-0002-9064-1965
 
 repository-code: "https://github.com/tsantosh7/Unsupervised-Supervised-Protein-Genes-Diseases-Organisms-Extraction"
