@@ -92,7 +92,8 @@ nltk.download('stopwords')
 
 ## License
 
-This work is licensed under a [Creative Commons Attribution 4.0 International License](http://creativecommons.org/licenses/by/4.0/).
+## License
 
-![CC BY 4.0 Icon](https://licensebuttons.net/l/by/4.0/88x31.png)
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 
